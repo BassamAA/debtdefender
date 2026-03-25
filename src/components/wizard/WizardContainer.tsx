@@ -59,7 +59,8 @@ export default function WizardContainer() {
         try {
           const restored: WizardFormData = JSON.parse(saved);
           setFormData(restored);
-          setStep(4);
+          setStep(5);
+          generateLetter(restored);
           localStorage.removeItem(STORAGE_KEY);
         } catch {
           localStorage.removeItem(STORAGE_KEY);
