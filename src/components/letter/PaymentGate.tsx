@@ -7,12 +7,14 @@ import type { WizardFormData } from '@/types';
 interface Props {
   formData: WizardFormData;
   letterBody: string;
+  onBeforeCheckout?: () => void;
 }
 
-export default function PaymentGate({ formData, letterBody }: Props) {
+export default function PaymentGate({ formData, letterBody, onBeforeCheckout }: Props) {
   const [loading, setLoading] = useState<'one-time' | 'subscription' | null>(null);
 
   async function handleCheckout(type: 'one-time' | 'subscription') {
+    onBeforeCheckout?.();
     setLoading(type);
     try {
       const res = await fetch('/api/checkout', {

@@ -6,9 +6,10 @@ interface Props {
   letterBody: string | null;
   letterType: string;
   isGenerating: boolean;
+  onBeforeCheckout?: () => void;
 }
 
-export default function Step5Preview({ formData, letterBody, letterType, isGenerating }: Props) {
+export default function Step5Preview({ formData, letterBody, letterType, isGenerating, onBeforeCheckout }: Props) {
   if (isGenerating || !letterBody) {
     return (
       <div className="flex flex-col items-center justify-center py-16">
@@ -57,7 +58,7 @@ export default function Step5Preview({ formData, letterBody, letterType, isGener
       </div>
 
       {/* Payment gate */}
-      <PaymentGate formData={formData} letterBody={letterBody} />
+      <PaymentGate formData={formData} letterBody={letterBody} onBeforeCheckout={onBeforeCheckout} />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useSearchParams } from 'next/navigation';
 import ProgressBar from './ProgressBar';
 import Step1Jurisdiction from './Step1Jurisdiction';
@@ -14,6 +14,8 @@ import { ArrowLeft, ArrowRight, Shield } from 'lucide-react';
 
 const TOTAL_STEPS = 5;
 const STEP_LABELS = ['Location', 'Debt Details', 'What Happened', 'Your Goal', 'Preview'];
+const STORAGE_KEY = 'debtdispute_wizard_formdata';
+const SAVED_DETAILS_KEY = 'debtdispute_saved_details';
 
 const EMPTY_FORM: WizardFormData = {
   jurisdiction: '',
@@ -30,6 +32,7 @@ const EMPTY_FORM: WizardFormData = {
 
 export default function WizardContainer() {
   const searchParams = useSearchParams();
+  const goingToCheckout = useRef(false);
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState<WizardFormData>(() => {
     const jurisdiction = searchParams.get('jurisdiction') as Jurisdiction | null;
@@ -43,8 +46,45 @@ export default function WizardContainer() {
   const [letterBody, setLetterBody] = useState<string | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [letterType, setLetterType] = useState('');
-  // Name / address needed at preview step
   const [showNameForm, setShowNameForm] = useState(false);
+  const [rememberDetails, setRememberDetails] = useState(false);
+
+  // On mount: restore cancelled form data or pre-fill saved details
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+
+    if (params.get('cancelled') === 'true') {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        try {
+          const restored: WizardFormData = JSON.parse(saved);
+          setFormData(restored);
+          setStep(4);
+          localStorage.removeItem(STORAGE_KEY);
+        } catch {
+          localStorage.removeItem(STORAGE_KEY);
+        }
+      }
+      window.history.replaceState({}, '', window.location.pathname);
+      return;
+    }
+
+    // Pre-fill name/address from saved details
+    const saved = localStorage.getItem(SAVED_DETAILS_KEY);
+    if (saved) {
+      try {
+        const details: { yourName: string; yourAddress: string } = JSON.parse(saved);
+        setFormData((prev) => ({
+          ...prev,
+          yourName: details.yourName ?? '',
+          yourAddress: details.yourAddress ?? '',
+        }));
+        setRememberDetails(true);
+      } catch {
+        localStorage.removeItem(SAVED_DETAILS_KEY);
+      }
+    }
+  }, []);
 
   function updateField(field: keyof WizardFormData, value: string) {
     setFormData((prev) => ({ ...prev, [field]: value }));
@@ -60,17 +100,17 @@ export default function WizardContainer() {
     }
   }
 
-  async function generateLetter() {
+  async function generateLetter(data: WizardFormData) {
     setIsGenerating(true);
     try {
       const res = await fetch('/api/generate-preview', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(data),
       });
-      const data = await res.json();
-      setLetterBody(data.letterBody);
-      setLetterType(data.letterType ? LETTER_TYPE_LABELS[data.letterType as keyof typeof LETTER_TYPE_LABELS] ?? data.letterType : '');
+      const json = await res.json();
+      setLetterBody(json.letterBody);
+      setLetterType(json.letterType ? LETTER_TYPE_LABELS[json.letterType as keyof typeof LETTER_TYPE_LABELS] ?? json.letterType : '');
     } catch (err) {
       console.error(err);
     } finally {
@@ -81,13 +121,12 @@ export default function WizardContainer() {
   function handleNext() {
     if (!canAdvance()) return;
     if (step === 4) {
-      // Before step 5, collect name + address if not yet provided
       if (!formData.yourName) {
         setShowNameForm(true);
         return;
       }
       setStep(5);
-      generateLetter();
+      generateLetter(formData);
     } else {
       setStep((s) => s + 1);
     }
@@ -96,9 +135,17 @@ export default function WizardContainer() {
   function handleNameSubmit(e?: React.FormEvent) {
     e?.preventDefault();
     if (!formData.yourName) return;
+    if (rememberDetails) {
+      localStorage.setItem(SAVED_DETAILS_KEY, JSON.stringify({
+        yourName: formData.yourName,
+        yourAddress: formData.yourAddress,
+      }));
+    } else {
+      localStorage.removeItem(SAVED_DETAILS_KEY);
+    }
     setShowNameForm(false);
     setStep(5);
-    generateLetter();
+    generateLetter(formData);
   }
 
   function handleBack() {
@@ -107,6 +154,12 @@ export default function WizardContainer() {
       return;
     }
     if (step > 1) setStep((s) => s - 1);
+  }
+
+  // Called just before redirecting to Stripe — saves form so it can be restored on cancel
+  function saveBeforeCheckout() {
+    goingToCheckout.current = true;
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
   }
 
   return (
@@ -158,6 +211,26 @@ export default function WizardContainer() {
                   className="w-full bg-navy-800 border border-navy-600 text-white rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500 transition-colors resize-none"
                 />
               </div>
+              {/* Remember my details */}
+              <label className="flex items-center gap-3 cursor-pointer group">
+                <div
+                  onClick={() => setRememberDetails((v) => !v)}
+                  className={`w-5 h-5 rounded flex items-center justify-center border-2 transition-colors flex-shrink-0 ${
+                    rememberDetails
+                      ? 'bg-orange-500 border-orange-500'
+                      : 'bg-navy-800 border-navy-500 group-hover:border-orange-500/60'
+                  }`}
+                >
+                  {rememberDetails && (
+                    <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 12 12">
+                      <path d="M2 6l3 3 5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  )}
+                </div>
+                <span className="text-sm text-slate-400 group-hover:text-slate-300 transition-colors select-none">
+                  Remember my name and address for next time
+                </span>
+              </label>
             </div>
           </form>
         ) : (
@@ -192,6 +265,7 @@ export default function WizardContainer() {
                 letterBody={letterBody}
                 letterType={letterType}
                 isGenerating={isGenerating}
+                onBeforeCheckout={saveBeforeCheckout}
               />
             )}
           </>

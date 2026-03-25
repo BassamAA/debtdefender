@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
         ],
         metadata,
         success_url: `${BASE_URL}/success?session_id={CHECKOUT_SESSION_ID}`,
-        cancel_url: `${BASE_URL}/wizard`,
+        cancel_url: `${BASE_URL}/wizard?cancelled=true`,
         allow_promotion_codes: true,
       });
     } else {
@@ -72,7 +72,7 @@ export async function POST(req: NextRequest) {
         metadata,
         subscription_data: { metadata },
         success_url: `${BASE_URL}/success?session_id={CHECKOUT_SESSION_ID}`,
-        cancel_url: `${BASE_URL}/wizard`,
+        cancel_url: `${BASE_URL}/wizard?cancelled=true`,
         allow_promotion_codes: true,
       });
     }
