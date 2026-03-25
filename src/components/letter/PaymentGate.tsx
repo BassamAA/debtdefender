@@ -12,26 +12,32 @@ interface Props {
 
 export default function PaymentGate({ formData, letterBody, onBeforeCheckout }: Props) {
   const [loading, setLoading] = useState<'one-time' | 'subscription' | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   async function handleCheckout(type: 'one-time' | 'subscription') {
     onBeforeCheckout?.();
     setLoading(type);
+    setError(null);
     try {
       const res = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          type,
-          formData,
-          letterBody,
-        }),
+        body: JSON.stringify({ type, formData, letterBody }),
       });
       const data = await res.json();
+      if (!res.ok) {
+        setError(data.error ?? `Server error ${res.status}`);
+        setLoading(null);
+        return;
+      }
       if (data.url) {
         window.location.href = data.url;
+      } else {
+        setError('No checkout URL returned. Check Stripe configuration.');
+        setLoading(null);
       }
     } catch (err) {
-      console.error(err);
+      setError(err instanceof Error ? err.message : 'Network error. Please try again.');
       setLoading(null);
     }
   }
@@ -136,6 +142,13 @@ export default function PaymentGate({ formData, letterBody, onBeforeCheckout }: 
           No subscription trap — cancel anytime
         </div>
       </div>
+
+      {error && (
+        <div className="mx-5 mb-4 bg-red-500/10 border border-red-500/40 rounded-xl px-4 py-3">
+          <p className="text-red-400 text-xs font-semibold mb-0.5">Payment error</p>
+          <p className="text-red-300 text-xs">{error}</p>
+        </div>
+      )}
 
       <p className="text-center text-slate-600 text-xs pb-3 px-5">
         DebtDispute is not a law firm and this is not legal advice. Consult an attorney for
