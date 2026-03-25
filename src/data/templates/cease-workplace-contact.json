@@ -1,0 +1,40 @@
+[
+  {
+    "letterType": "cease-workplace-contact",
+    "jurisdiction": "us-federal",
+    "applicableToAllJurisdictions": true,
+    "legalCitations": [
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692c(a)(3) (Section 805(a)(3)) — Communication at Work Prohibited",
+        "description": "A debt collector may not communicate with a consumer in connection with the collection of any debt at the consumer's place of employment if the debt collector knows or has reason to know that the consumer's employer prohibits the consumer from receiving such communication."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692d (Section 806) — Harassment or Abuse",
+        "description": "A debt collector may not engage in conduct the natural consequence of which is to harass, oppress, or abuse any person, including causing a telephone to ring or engaging any person in telephone conversation repeatedly or continuously with intent to annoy, abuse, or harass."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692k (Section 813) — Civil Liability",
+        "description": "A debt collector who fails to comply with the FDCPA is liable for actual damages, statutory damages up to $1,000, and attorney's fees and costs in a successful action."
+      }
+    ],
+    "subject": "FORMAL NOTICE — CEASE AND DESIST ALL CONTACT AT MY PLACE OF EMPLOYMENT",
+    "openingParagraph": "I am writing to formally notify you that I am demanding that you immediately cease and desist all contact with me at my place of employment. Contact at my workplace is inconvenient and potentially harmful to my employment. My employer prohibits me from receiving personal collection calls during work hours. This notice is given pursuant to 15 U.S.C. § 1692c(a)(3) of the Fair Debt Collection Practices Act.",
+    "bodyParagraphs": [
+      "The Fair Debt Collection Practices Act, 15 U.S.C. § 1692c(a)(3), expressly prohibits debt collectors from communicating with consumers at their place of employment if the collector knows or has reason to know that the consumer's employer prohibits such communications. By sending this letter, I am explicitly informing you that my employer prohibits me from receiving personal collection calls at work.",
+      "Any further contact at my workplace — whether by telephone, in person, mail to my work address, or any other method — will constitute a knowing and willful violation of 15 U.S.C. § 1692c(a)(3). This is a serious FDCPA violation that can cause actual damages including potential harm to my employment.",
+      "I am fully aware that under 15 U.S.C. § 1692k, I am entitled to bring a civil action for FDCPA violations and may recover actual damages, statutory damages of up to $1,000, plus attorney's fees and costs. I am documenting all workplace contact from your agency."
+    ],
+    "demands": [
+      "Immediately and permanently cease all telephone calls to my place of employment",
+      "Cease all mail or in-person contact at my workplace address",
+      "Remove my work phone number from your records",
+      "Contact me only at my home address provided in this letter",
+      "Confirm in writing that you have received this notice and will comply"
+    ],
+    "consequencesStatement": "Any contact at my workplace after receipt of this letter will be reported to the Consumer Financial Protection Bureau (CFPB), the Federal Trade Commission (FTC), and my state attorney general as a violation of 15 U.S.C. § 1692c(a)(3). I will also pursue civil remedies under 15 U.S.C. § 1692k for actual and statutory damages plus attorney's fees. If your calls affect my employment, I will seek full actual damages including any employment-related losses.",
+    "closingStatement": "Consider this your formal written notice. All future communications must be to my home address only. Do not contact me at work under any circumstances."
+  }
+]

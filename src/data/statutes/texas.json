@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "texas",
+  "jurisdictionName": "Texas",
+  "country": "US",
+  "generalSOL": 4,
+  "generalCitation": "Tex. Civ. Prac. & Rem. Code § 16.004",
+  "debtTypes": {
+    "credit-card": {
+      "years": 4,
+      "notes": "Texas applies a 4-year limitation period to credit card debt as a written contract. The Texas Finance Code Chapter 392 (Texas Debt Collection Act) mirrors and supplements FDCPA protections and covers original creditors as well.",
+      "citation": "Tex. Civ. Prac. & Rem. Code § 16.004; Tex. Fin. Code §§ 392.001–392.404",
+      "lawName": "Tex. Civ. Prac. & Rem. Code § 16.004"
+    },
+    "medical": {
+      "years": 4,
+      "notes": "Medical debts in Texas are subject to the 4-year limitation. Texas has enacted HB 1592 (2023) limiting medical debt reporting to credit bureaus.",
+      "citation": "Tex. Civ. Prac. & Rem. Code § 16.004",
+      "lawName": "Tex. Civ. Prac. & Rem. Code § 16.004"
+    },
+    "auto-loan": {
+      "years": 4,
+      "notes": "Auto loan deficiency balances are subject to Texas's 4-year limitation period from the date the deficiency arises.",
+      "citation": "Tex. Civ. Prac. & Rem. Code § 16.004",
+      "lawName": "Tex. Civ. Prac. & Rem. Code § 16.004"
+    },
+    "personal-loan": {
+      "years": 4,
+      "notes": "Personal loans in Texas are subject to the 4-year limitation period for written debt obligations.",
+      "citation": "Tex. Civ. Prac. & Rem. Code § 16.004",
+      "lawName": "Tex. Civ. Prac. & Rem. Code § 16.004"
+    },
+    "student-loan": {
+      "years": 4,
+      "notes": "Private student loans in Texas follow the 4-year limitation. Federal student loans are exempt from state statutes of limitations for Department of Education collection.",
+      "citation": "Tex. Civ. Prac. & Rem. Code § 16.004",
+      "lawName": "Tex. Civ. Prac. & Rem. Code § 16.004"
+    },
+    "mortgage-deficiency": {
+      "years": 2,
+      "notes": "Mortgage deficiency claims in Texas must be brought within 2 years after the foreclosure sale under the Texas Property Code.",
+      "citation": "Tex. Prop. Code § 51.003(a)",
+      "lawName": "Tex. Prop. Code § 51.003"
+    },
+    "utility-bill": {
+      "years": 4,
+      "notes": "Utility bill debts in Texas are subject to the standard 4-year limitation period.",
+      "citation": "Tex. Civ. Prac. & Rem. Code § 16.004",
+      "lawName": "Tex. Civ. Prac. & Rem. Code § 16.004"
+    }
+  },
+  "regulatoryBody": "Texas Office of Consumer Credit Commissioner (OCCC) & Texas Attorney General",
+  "regulatoryBodyUrl": "https://occc.texas.gov/consumers/file-a-complaint",
+  "complaints": "File a complaint with the TX OCCC at occc.texas.gov or the TX AG at texasattorneygeneral.gov. Texas's Debt Collection Act (Finance Code Ch. 392) covers all debt collectors including original creditors."
+}

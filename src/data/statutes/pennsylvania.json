@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "pennsylvania",
+  "jurisdictionName": "Pennsylvania",
+  "country": "US",
+  "generalSOL": 4,
+  "generalCitation": "42 Pa. C.S. § 5525(a)",
+  "debtTypes": {
+    "credit-card": {
+      "years": 4,
+      "notes": "Pennsylvania applies a 4-year limitation to written contracts including credit card debt. Pennsylvania's Fair Credit Extension Uniformity Act (FCEUA) extends FDCPA-like protections to original creditors.",
+      "citation": "42 Pa. C.S. § 5525(a); 73 Pa. Stat. §§ 2270.1–2270.6 (FCEUA)",
+      "lawName": "42 Pa. C.S. § 5525"
+    },
+    "medical": {
+      "years": 4,
+      "notes": "Medical debts in Pennsylvania are subject to the 4-year limitation for written contracts.",
+      "citation": "42 Pa. C.S. § 5525(a)",
+      "lawName": "42 Pa. C.S. § 5525"
+    },
+    "auto-loan": {
+      "years": 4,
+      "notes": "Auto loan deficiency balances in Pennsylvania follow the 4-year written contract limitation.",
+      "citation": "42 Pa. C.S. § 5525(a)",
+      "lawName": "42 Pa. C.S. § 5525"
+    },
+    "personal-loan": {
+      "years": 4,
+      "notes": "Personal loans in Pennsylvania are subject to the 4-year limitation for written contracts.",
+      "citation": "42 Pa. C.S. § 5525(a)",
+      "lawName": "42 Pa. C.S. § 5525"
+    },
+    "student-loan": {
+      "years": 4,
+      "notes": "Private student loans in Pennsylvania follow the 4-year limitation. Federal loans are exempt from state SOL for government collection.",
+      "citation": "42 Pa. C.S. § 5525(a)",
+      "lawName": "42 Pa. C.S. § 5525"
+    },
+    "mortgage-deficiency": {
+      "years": 4,
+      "notes": "Mortgage deficiency claims in Pennsylvania are subject to the 4-year limitation. Pennsylvania courts have some restrictions on deficiency claims after non-judicial sales.",
+      "citation": "42 Pa. C.S. § 5525(a)",
+      "lawName": "42 Pa. C.S. § 5525"
+    },
+    "utility-bill": {
+      "years": 4,
+      "notes": "Utility bill debts in Pennsylvania are subject to the 4-year limitation for written contracts.",
+      "citation": "42 Pa. C.S. § 5525(a)",
+      "lawName": "42 Pa. C.S. § 5525"
+    }
+  },
+  "regulatoryBody": "Pennsylvania Department of Banking and Securities & Pennsylvania Attorney General",
+  "regulatoryBodyUrl": "https://www.dobs.pa.gov/Consumers/ConsumerComplaints/Pages/default.aspx",
+  "complaints": "File a complaint with PA DOBS at dobs.pa.gov or the PA AG at attorneygeneral.gov. Pennsylvania's FCEUA and the Unfair Trade Practices and Consumer Protection Law provide additional consumer rights."
+}

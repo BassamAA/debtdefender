@@ -1,0 +1,86 @@
+[
+  {
+    "letterType": "statute-of-limitations",
+    "jurisdiction": "us-federal",
+    "applicableToAllJurisdictions": false,
+    "applicableTo": ["new-york", "california", "texas", "florida", "illinois", "ohio", "pennsylvania", "georgia"],
+    "legalCitations": [
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692e (Section 807) — False or Misleading Representations",
+        "description": "A debt collector may not use false, deceptive, or misleading representations, including threatening to sue on a time-barred debt without disclosing that the debt is too old to be legally enforceable."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692f (Section 808) — Unfair Practices",
+        "description": "A debt collector may not use unfair or unconscionable means to collect or attempt to collect any debt, including collecting amounts not authorized by the agreement or permitted by law."
+      },
+      {
+        "act": "Consumer Financial Protection Bureau (CFPB) Regulation F, 12 C.F.R. Part 1006",
+        "section": "§ 1006.26 — Time-Barred Debt Disclosures",
+        "description": "Debt collectors must make specific disclosures when attempting to collect time-barred debts, informing consumers that the debt is too old to be sued upon and that making a payment may revive the debt."
+      }
+    ],
+    "subject": "NOTICE OF STATUTE OF LIMITATIONS DEFENSE — DEMAND TO CEASE COLLECTION OF TIME-BARRED DEBT",
+    "openingParagraph": "I am writing regarding your recent communication seeking collection of the above-referenced alleged debt. Based on the information available to me, this debt appears to be legally time-barred under the applicable statute of limitations for my state. I am hereby putting you on formal notice of this defense and demanding that you cease all collection activity on this time-barred obligation.",
+    "bodyParagraphs": [
+      "The statute of limitations is a legal deadline by which a creditor must file a lawsuit to collect a debt. Once this deadline passes, the debt becomes legally unenforceable through the courts — meaning a collector cannot obtain a judgment against you. While the debt may technically still exist, no court will enforce it.",
+      "Under CFPB Regulation F (12 C.F.R. Part 1006.26), debt collectors are required to disclose when a debt is time-barred. Failing to make this disclosure, or threatening to sue on a time-barred debt, constitutes a violation of the FDCPA under 15 U.S.C. § 1692e (false representations) and § 1692f (unfair practices). CFPB enforcement actions have confirmed that filing or threatening to file a lawsuit on a time-barred debt is a serious FDCPA violation.",
+      "I am also aware that making any payment — even a small partial payment — or making a written acknowledgement of the debt may restart the statute of limitations in some states. I will not be making any payment or acknowledgement on this time-barred obligation.",
+      "Any attempt to sue me on this alleged debt will result in a statute of limitations defense being raised in court, the cost of which I will seek to recover as part of my attorney's fees under 15 U.S.C. § 1692k."
+    ],
+    "demands": [
+      "Immediately cease all collection activity on this time-barred alleged debt",
+      "Cease all telephone contact, written demands, and any threats of legal action",
+      "If you have reported or intend to report this debt to any credit reporting agency, note that the FCRA limits the reporting of most debts to 7 years from the date of first delinquency",
+      "Provide written confirmation that collection activity on this account has ceased",
+      "Provide written confirmation of the original date of default and the date of last payment on this account so I may independently verify the limitations period"
+    ],
+    "consequencesStatement": "Any attempt to file a lawsuit on this time-barred debt will be vigorously defended, and I will seek attorney's fees and costs under the FDCPA. I will file complaints with the Consumer Financial Protection Bureau (CFPB), the Federal Trade Commission (FTC), and my state attorney general regarding any continued collection activity on a time-barred debt. Each violation constitutes a separate actionable claim under 15 U.S.C. § 1692k.",
+    "closingStatement": "Consider this formal written notice of the statute of limitations defense. Do not contact me further regarding this matter except in writing and only to confirm that collection activity has ceased."
+  },
+  {
+    "letterType": "statute-of-limitations",
+    "jurisdiction": "canada-general",
+    "applicableToAllJurisdictions": false,
+    "applicableTo": ["ontario", "quebec", "british-columbia", "alberta"],
+    "legalCitations": [
+      {
+        "act": "Limitations Act, 2002, S.O. 2002, c. 24, Sched. B (Ontario)",
+        "section": "Section 4 — Basic Limitation Period",
+        "description": "A claim shall not be commenced after the second anniversary of the day on which the claim was discovered. After the basic limitation period expires, no legal proceeding may be brought to collect the debt."
+      },
+      {
+        "act": "Civil Code of Quebec, CQLR c CCQ-1991 (Quebec)",
+        "section": "Article 2925 — Prescription",
+        "description": "An action to enforce a personal right or movable real right is prescribed by three years if the prescriptive period is not otherwise established."
+      },
+      {
+        "act": "Limitation Act, SBC 2012, c 13 (British Columbia)",
+        "section": "Section 6 — Basic Limitation Period",
+        "description": "A claim must not be commenced more than 2 years after the day on which the claim was discovered."
+      },
+      {
+        "act": "Limitations Act, RSA 2000, c L-12 (Alberta)",
+        "section": "Section 3(1) — Limitation Periods",
+        "description": "No proceeding may be brought after the 2-year period following the date the claimant first knew or ought to have known of the claim."
+      }
+    ],
+    "subject": "NOTICE OF PROVINCIAL LIMITATION DEFENSE — DEMAND TO CEASE COLLECTION OF PRESCRIBED DEBT",
+    "openingParagraph": "I am writing regarding your recent collection demand for the above-referenced alleged debt. Based on my records and the information available, this debt appears to have prescribed (i.e., the applicable provincial limitation period has expired). I am formally notifying you of this defense and demanding that you immediately cease all collection activity.",
+    "bodyParagraphs": [
+      "Under provincial limitations legislation applicable to my jurisdiction, legal proceedings to collect a debt must be commenced within a specified limitation period — typically 2 years in most Canadian provinces (3 years in Quebec). Once this period expires, no court will enforce the collection of the debt through legal proceedings.",
+      "The collection of a prescribed debt through continued demands, harassment, or threats of legal action may constitute a violation of applicable provincial collection agency legislation and consumer protection laws. Collection agencies are prohibited from making false or misleading representations about the legal status of a debt.",
+      "I am fully aware that making any payment — even a small amount — or providing a written acknowledgement of the debt may restart the limitation period under provincial law. I will not be making any such payment or acknowledgement."
+    ],
+    "demands": [
+      "Immediately cease all collection activity on this prescribed debt",
+      "Cease all telephone calls, written demands, and any suggestions of legal action",
+      "Provide written confirmation of the original date of default and the date of last payment on this account",
+      "Provide written confirmation that collection activity on this account has ceased",
+      "Provide evidence that the limitation period has not expired if you believe you are still entitled to collect"
+    ],
+    "consequencesStatement": "Any attempt to commence legal proceedings on this prescribed debt will be defended on limitation grounds at your expense. I will also file a complaint with my provincial consumer protection authority regarding any continued collection activity on a debt that has prescribed under provincial law. Collection agencies that misrepresent the legal status of debts are subject to regulatory action.",
+    "closingStatement": "This letter serves as formal notice of the limitation period defense. Respond in writing only to confirm that collection activity has ceased."
+  }
+]

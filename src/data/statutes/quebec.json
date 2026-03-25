@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "quebec",
+  "jurisdictionName": "Quebec",
+  "country": "CA",
+  "generalSOL": 3,
+  "generalCitation": "Civil Code of Quebec, CQLR c CCQ-1991, Art. 2925",
+  "debtTypes": {
+    "credit-card": {
+      "years": 3,
+      "notes": "Quebec's 3-year prescription period applies to most personal debts including credit cards. The clock starts from when the creditor could have first brought a claim (typically the first missed payment or default date).",
+      "citation": "Civil Code of Quebec, CQLR c CCQ-1991, Art. 2925",
+      "lawName": "Civil Code of Quebec"
+    },
+    "medical": {
+      "years": 3,
+      "notes": "Medical debts owed to private providers follow the 3-year prescription. Debts to public health institutions may have specific rules — verify with a Quebec consumer protection lawyer.",
+      "citation": "Civil Code of Quebec, CQLR c CCQ-1991, Art. 2925",
+      "lawName": "Civil Code of Quebec"
+    },
+    "auto-loan": {
+      "years": 3,
+      "notes": "Auto loan deficiency balances in Quebec are subject to the 3-year civil prescription period from the date of the deficiency.",
+      "citation": "Civil Code of Quebec, CQLR c CCQ-1991, Art. 2925",
+      "lawName": "Civil Code of Quebec"
+    },
+    "personal-loan": {
+      "years": 3,
+      "notes": "Personal loans are subject to Quebec's 3-year prescription period. Any acknowledgement of debt (written or payment) can restart the clock.",
+      "citation": "Civil Code of Quebec, CQLR c CCQ-1991, Art. 2925",
+      "lawName": "Civil Code of Quebec"
+    },
+    "student-loan": {
+      "years": 3,
+      "notes": "Private student loans follow the 3-year prescription. Provincial AFE loans and federal Canada Student Loans may have separate timelines.",
+      "citation": "Civil Code of Quebec, CQLR c CCQ-1991, Art. 2925",
+      "lawName": "Civil Code of Quebec"
+    },
+    "mortgage-deficiency": {
+      "years": 3,
+      "notes": "Mortgage deficiency claims in Quebec are generally subject to the 3-year prescription under the Civil Code, though hypothec (mortgage) actions may have different timelines. Consult a notary or attorney.",
+      "citation": "Civil Code of Quebec, CQLR c CCQ-1991, Art. 2925 and Art. 2923",
+      "lawName": "Civil Code of Quebec"
+    },
+    "utility-bill": {
+      "years": 3,
+      "notes": "Utility bill debts are subject to Quebec's standard 3-year prescription period.",
+      "citation": "Civil Code of Quebec, CQLR c CCQ-1991, Art. 2925",
+      "lawName": "Civil Code of Quebec"
+    }
+  },
+  "regulatoryBody": "Office de la protection du consommateur (OPC)",
+  "regulatoryBodyUrl": "https://www.opc.gouv.qc.ca",
+  "complaints": "File a complaint with the OPC at opc.gouv.qc.ca or call 1-888-672-2556. Collection agencies are regulated under the Consumer Protection Act, CQLR c P-40.1."
+}

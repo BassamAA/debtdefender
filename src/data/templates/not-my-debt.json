@@ -1,0 +1,48 @@
+[
+  {
+    "letterType": "not-my-debt",
+    "jurisdiction": "us-federal",
+    "applicableToAllJurisdictions": true,
+    "legalCitations": [
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692g (Section 809) — Validation of Debts",
+        "description": "Upon written dispute within 30 days of initial communication, the debt collector must cease collection activities until verification of the debt is mailed to the consumer. If the consumer notifies the debt collector in writing that the debt is disputed, the collector must obtain verification of the debt."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692e (Section 807) — False or Misleading Representations",
+        "description": "A debt collector may not falsely represent the character, amount, or legal status of any debt."
+      },
+      {
+        "act": "Fair Credit Reporting Act (FCRA), 15 U.S.C. § 1681 et seq.",
+        "section": "§ 1681i — Procedure in Case of Disputed Accuracy",
+        "description": "If a consumer disputes the completeness or accuracy of any item of information in a consumer report, the consumer reporting agency must conduct a reinvestigation and delete or modify inaccurate information."
+      },
+      {
+        "act": "Identity Theft Enforcement and Restitution Act, 18 U.S.C. § 1028A",
+        "section": "§ 1028A — Aggravated Identity Theft",
+        "description": "Federal law criminalizes identity theft. If this debt arose from identity theft, I may file a report with the FTC and local law enforcement, and creditors must block the fraudulent account information from my credit report."
+      }
+    ],
+    "subject": "FORMAL DISPUTE — THIS DEBT IS NOT MINE / IDENTITY THEFT DISPUTE",
+    "openingParagraph": "I am writing to formally dispute the alleged debt referenced above. I do not recognize this debt. I have no record of any account with the original creditor named, nor did I enter into any agreement that would give rise to the obligation you are attempting to collect. This is a formal written dispute under the Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692g.",
+    "bodyParagraphs": [
+      "This letter constitutes my written dispute of this alleged debt in its entirety. Pursuant to 15 U.S.C. § 1692g(b), you must immediately cease all collection activity and obtain verification of this debt before resuming any contact or collection efforts.",
+      "If this alleged debt has already been reported to any consumer reporting agency (Equifax, Experian, TransUnion), I hereby dispute it under the Fair Credit Reporting Act (FCRA), 15 U.S.C. § 1681i. Reporting a disputed, unverified, or fraudulent debt is a violation of the FCRA and can result in civil liability.",
+      "If this debt arose from identity theft or unauthorized use of my personal information, I intend to file an identity theft report with the Federal Trade Commission (FTC) at IdentityTheft.gov and may file a report with local law enforcement. Under 15 U.S.C. § 1681c-2, creditors are required to block fraudulent account information from consumer reports within 4 business days of receiving a copy of an identity theft report.",
+      "I have never had an account with the original creditor listed. I have never authorized anyone to open an account in my name with this creditor. I have no knowledge of the transaction(s) that gave rise to this alleged obligation."
+    ],
+    "demands": [
+      "Immediately cease all collection activity pending your investigation and verification of this dispute",
+      "Provide a complete copy of the original signed agreement, signed application, or other document establishing that I entered into this obligation",
+      "Provide the complete account history showing all transactions on this account",
+      "Provide evidence of your right to collect this alleged debt, including all chain-of-title documentation",
+      "If this debt has been reported to any credit bureau, immediately initiate a dispute or correction process noting that this account is disputed",
+      "Provide the name, address, and phone number of the original creditor and the original account number",
+      "Confirm in writing that you have received this dispute and that collection activity has been paused"
+    ],
+    "consequencesStatement": "If you continue collection activity without providing the requested verification, if you have reported this disputed debt to any consumer reporting agency without noting it as disputed, or if you attempt to pursue this matter in court, I will file complaints with the CFPB, the FTC, and my state attorney general. I will also pursue civil remedies under both the FDCPA (15 U.S.C. § 1692k) and the FCRA (15 U.S.C. § 1681n/o). If identity theft is involved, I will pursue all available criminal and civil remedies.",
+    "closingStatement": "This is a dispute of this debt in its entirety. Do not contact me by telephone. All communications must be in writing to the address above."
+  }
+]

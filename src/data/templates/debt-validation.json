@@ -1,0 +1,92 @@
+[
+  {
+    "letterType": "debt-validation",
+    "jurisdiction": "us-federal",
+    "applicableToAllJurisdictions": false,
+    "applicableTo": ["new-york", "california", "texas", "florida", "illinois", "ohio", "pennsylvania", "georgia"],
+    "legalCitations": [
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692g (Section 809) — Validation of Debts",
+        "description": "Within five days after the initial communication, a debt collector must send written notice of the amount of the debt, the name of the creditor, and a statement that the consumer has 30 days to dispute the validity of the debt. Upon written dispute, the collector must cease collection activities until verification is mailed to the consumer."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692e (Section 807) — False or Misleading Representations",
+        "description": "A debt collector may not use any false, deceptive, or misleading representation in connection with the collection of any debt, including misrepresenting the character, amount, or legal status of any debt."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692k (Section 813) — Civil Liability",
+        "description": "A debt collector who fails to comply with the FDCPA is liable for actual damages, statutory damages up to $1,000, and attorney's fees and costs."
+      }
+    ],
+    "subject": "FORMAL DEBT VALIDATION REQUEST — CEASE COLLECTION ACTIVITIES PENDING VERIFICATION",
+    "openingParagraph": "I am writing in response to your recent communication regarding an alleged debt. Pursuant to the Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692g, I hereby formally dispute this debt and demand that you provide complete verification and validation of the alleged obligation before engaging in any further collection activity.",
+    "bodyParagraphs": [
+      "This is not a refusal to pay. This is a formal exercise of my statutory rights under the FDCPA. You are legally required to cease all collection efforts — including any further contact, credit reporting, or litigation — until you provide the requested verification.",
+      "I am aware of my rights under 15 U.S.C. § 1692g, which entitles me to receive written verification of this debt within a reasonable time. Your failure to provide this information, or your continuation of collection activity before providing it, constitutes a violation of the FDCPA and may expose you to civil liability under § 1692k, including statutory damages of up to $1,000 per violation plus attorney's fees.",
+      "I also notify you that I am aware of the prohibition under 15 U.S.C. § 1692e against any false or misleading representations regarding the character, amount, or legal status of this alleged debt. Any inaccuracy in the information you provide will be documented."
+    ],
+    "demands": [
+      "The full name and address of the original creditor to whom the debt was originally owed",
+      "The complete account number associated with the original account",
+      "The original date of default or the date of last payment on the account",
+      "The complete payment history on this account from origination, including all charges, fees, and interest applied",
+      "A copy of any written agreement or contract signed by me that created the alleged obligation",
+      "Verification that your company is licensed to collect debts in my state, including your license number and the name of the licensing authority",
+      "The date on which the original creditor charged off this debt, if applicable",
+      "Documentation showing the chain of ownership from the original creditor to your company (all assignments or sale agreements)",
+      "Confirmation that the statute of limitations for legal action on this debt has not expired"
+    ],
+    "consequencesStatement": "If you continue collection activity — including telephone calls, written communications, or credit reporting — before providing the requested validation, I will file complaints with the Consumer Financial Protection Bureau (CFPB), the Federal Trade Commission (FTC), and my state attorney general. I will also consult with a consumer rights attorney regarding any FDCPA violations. Every contact you make without providing validation will be documented as a potential violation subject to statutory damages.",
+    "closingStatement": "Please confirm receipt of this letter in writing. All further communications regarding this matter must be in writing. Do not contact me by telephone."
+  },
+  {
+    "letterType": "debt-validation",
+    "jurisdiction": "canada-general",
+    "applicableToAllJurisdictions": false,
+    "applicableTo": ["ontario", "quebec", "british-columbia", "alberta"],
+    "legalCitations": [
+      {
+        "act": "Collection and Debt Settlement Services Act, R.S.O. 1990, c. C.14 (Ontario)",
+        "section": "Section 22 — Requirements Before Collecting",
+        "description": "A collection agency must provide specified information before making collection demands, including the name of the creditor, the amount claimed, and the basis of the claim."
+      },
+      {
+        "act": "Consumer Protection Act, 2002, S.O. 2002, c. 30, Sched. A (Ontario)",
+        "section": "Section 17 — Right to Information",
+        "description": "Consumers have the right to receive clear and accurate information about alleged debts before being required to respond to collection demands."
+      },
+      {
+        "act": "Business Practices and Consumer Protection Act, SBC 2004, c 2 (British Columbia)",
+        "section": "Part 7 — Debt Collection",
+        "description": "Collection agents must provide written verification of debts upon request and cease collection activity while verification is pending."
+      },
+      {
+        "act": "Fair Trading Act, RSA 2000, c F-2 — Collections Practices Regulation, Alta Reg 194/1999 (Alberta)",
+        "section": "Section 3 — Prohibited Practices",
+        "description": "A collector must not make a representation or implication that is false, misleading, or deceptive regarding the amount, character, or legal status of a debt."
+      }
+    ],
+    "subject": "FORMAL REQUEST FOR DEBT VERIFICATION — DEMAND TO CEASE COLLECTION ACTIVITY PENDING RESPONSE",
+    "openingParagraph": "I am writing in response to your recent communication regarding an alleged debt. I hereby formally dispute this alleged obligation and demand complete verification before any further collection activity occurs. This letter constitutes formal notice of my dispute and my demand for verification pursuant to applicable provincial consumer protection legislation.",
+    "bodyParagraphs": [
+      "I am exercising my rights under provincial consumer protection law, which requires collection agencies to substantiate any debt before pursuing collection. I do not acknowledge this debt and am not waiving any rights by sending this letter.",
+      "Collection agencies operating in Canada are required to be registered and to follow specific conduct requirements under provincial law. Any failure to comply with these requirements, or continued collection activity before providing verification, constitutes a regulatory violation that I will report to the appropriate authority.",
+      "I am documenting all communications from your organization. Any contact that violates applicable provincial legislation will be reported to the relevant provincial consumer protection authority and may result in regulatory action against your agency's registration."
+    ],
+    "demands": [
+      "The full legal name and address of the original creditor to whom this debt was originally owed",
+      "The original account number and the complete account history from origination",
+      "The original date of default or last payment on the account",
+      "A complete itemization of the amount claimed, including principal, interest, and any fees",
+      "Confirmation that your agency is registered to collect debts in my province, including registration number",
+      "All documentation showing the chain of assignment from original creditor to your agency",
+      "Confirmation that the applicable provincial limitation period for legal action has not expired",
+      "A copy of any written agreement that created the obligation claimed"
+    ],
+    "consequencesStatement": "If collection activity continues before you provide the requested verification, I will file a complaint with my provincial consumer protection authority and report any violations of applicable collection agency regulations. Any continued unlicensed, unauthorized, or non-compliant collection activity will be fully documented for regulatory and legal purposes.",
+    "closingStatement": "Please provide your response in writing to the address on this letter. I do not consent to telephone contact regarding this matter."
+  }
+]

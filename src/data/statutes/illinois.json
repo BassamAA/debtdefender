@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "illinois",
+  "jurisdictionName": "Illinois",
+  "country": "US",
+  "generalSOL": 5,
+  "generalCitation": "735 ILCS 5/13-205",
+  "debtTypes": {
+    "credit-card": {
+      "years": 5,
+      "notes": "Illinois applies a 5-year limitation period to written contracts including credit card agreements. The Illinois Collection Agency Act regulates collectors and mirrors many FDCPA protections.",
+      "citation": "735 ILCS 5/13-205; 225 ILCS 425/1 et seq. (Collection Agency Act)",
+      "lawName": "735 ILCS 5/13-205"
+    },
+    "medical": {
+      "years": 5,
+      "notes": "Medical debts based on written contracts are subject to Illinois's 5-year limitation. Medical malpractice has a 2-year SOL, but billing disputes follow contract law.",
+      "citation": "735 ILCS 5/13-205",
+      "lawName": "735 ILCS 5/13-205"
+    },
+    "auto-loan": {
+      "years": 5,
+      "notes": "Auto loan deficiency balances follow Illinois's 5-year written contract limitation from the date of the deficiency.",
+      "citation": "735 ILCS 5/13-205",
+      "lawName": "735 ILCS 5/13-205"
+    },
+    "personal-loan": {
+      "years": 5,
+      "notes": "Personal loans in Illinois are subject to the 5-year limitation for written contracts.",
+      "citation": "735 ILCS 5/13-205",
+      "lawName": "735 ILCS 5/13-205"
+    },
+    "student-loan": {
+      "years": 5,
+      "notes": "Private student loans in Illinois are subject to the 5-year limitation. Federal loans are exempt from state SOL for government collection.",
+      "citation": "735 ILCS 5/13-205",
+      "lawName": "735 ILCS 5/13-205"
+    },
+    "mortgage-deficiency": {
+      "years": 7,
+      "notes": "Illinois has a 7-year limitation on certain mortgage-related claims under the real property provisions. Consult an Illinois attorney as deficiency rules vary by foreclosure type.",
+      "citation": "735 ILCS 5/13-206",
+      "lawName": "735 ILCS 5/13-206"
+    },
+    "utility-bill": {
+      "years": 5,
+      "notes": "Utility bill debts in Illinois are subject to the standard 5-year limitation for written contracts.",
+      "citation": "735 ILCS 5/13-205",
+      "lawName": "735 ILCS 5/13-205"
+    }
+  },
+  "regulatoryBody": "Illinois Department of Financial and Professional Regulation (IDFPR) & Illinois Attorney General",
+  "regulatoryBodyUrl": "https://idfpr.illinois.gov/consumers/ConsumerComplaint.html",
+  "complaints": "File a complaint with IDFPR at idfpr.illinois.gov or the IL AG at illinoisattorneygeneral.gov. Illinois's Collection Agency Act (225 ILCS 425) requires collectors to be licensed."
+}

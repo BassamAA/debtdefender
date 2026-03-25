@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "ohio",
+  "jurisdictionName": "Ohio",
+  "country": "US",
+  "generalSOL": 6,
+  "generalCitation": "Ohio Rev. Code § 2305.07",
+  "debtTypes": {
+    "credit-card": {
+      "years": 6,
+      "notes": "Ohio applies a 6-year limitation period to written contracts including credit card debt. Ohio's Consumer Sales Practices Act (CSPA) also provides additional protections against unfair debt collection.",
+      "citation": "Ohio Rev. Code § 2305.07; Ohio Rev. Code § 1345.01 et seq. (CSPA)",
+      "lawName": "Ohio Rev. Code § 2305.07"
+    },
+    "medical": {
+      "years": 6,
+      "notes": "Medical debts in Ohio based on written contracts are subject to the 6-year limitation. Ohio enacted SB 225 (2022) providing medical debt relief programs.",
+      "citation": "Ohio Rev. Code § 2305.07",
+      "lawName": "Ohio Rev. Code § 2305.07"
+    },
+    "auto-loan": {
+      "years": 6,
+      "notes": "Auto loan deficiency balances are subject to Ohio's 6-year written contract limitation.",
+      "citation": "Ohio Rev. Code § 2305.07",
+      "lawName": "Ohio Rev. Code § 2305.07"
+    },
+    "personal-loan": {
+      "years": 6,
+      "notes": "Personal loans in Ohio are subject to the 6-year limitation period for written debt instruments.",
+      "citation": "Ohio Rev. Code § 2305.07",
+      "lawName": "Ohio Rev. Code § 2305.07"
+    },
+    "student-loan": {
+      "years": 6,
+      "notes": "Private student loans in Ohio are subject to the 6-year limitation. Federal loans are not subject to state SOL for government collection.",
+      "citation": "Ohio Rev. Code § 2305.07",
+      "lawName": "Ohio Rev. Code § 2305.07"
+    },
+    "mortgage-deficiency": {
+      "years": 6,
+      "notes": "Mortgage deficiency judgments in Ohio are subject to the 6-year limitation from the date of the foreclosure sale.",
+      "citation": "Ohio Rev. Code § 2305.07",
+      "lawName": "Ohio Rev. Code § 2305.07"
+    },
+    "utility-bill": {
+      "years": 6,
+      "notes": "Utility bill debts in Ohio are subject to the standard 6-year limitation for written contracts.",
+      "citation": "Ohio Rev. Code § 2305.07",
+      "lawName": "Ohio Rev. Code § 2305.07"
+    }
+  },
+  "regulatoryBody": "Ohio Department of Commerce — Division of Financial Institutions & Ohio Attorney General",
+  "regulatoryBodyUrl": "https://com.ohio.gov/divisions/financial-institutions/consumer-complaint",
+  "complaints": "File a complaint with the Ohio AG at ohioattorneygeneral.gov or the Division of Financial Institutions at com.ohio.gov."
+}

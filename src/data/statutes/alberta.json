@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "alberta",
+  "jurisdictionName": "Alberta",
+  "country": "CA",
+  "generalSOL": 2,
+  "generalCitation": "Limitations Act, RSA 2000, c L-12, s 3(1)",
+  "debtTypes": {
+    "credit-card": {
+      "years": 2,
+      "notes": "Alberta's 2-year limitation period applies to credit card debts from the date of last activity (payment or written acknowledgement). The 10-year ultimate limitation period also applies — no claim can be brought after 10 years regardless.",
+      "citation": "Limitations Act, RSA 2000, c L-12, s 3(1)",
+      "lawName": "Limitations Act, RSA 2000"
+    },
+    "medical": {
+      "years": 2,
+      "notes": "Private medical debts in Alberta follow the 2-year limitation period.",
+      "citation": "Limitations Act, RSA 2000, c L-12, s 3(1)",
+      "lawName": "Limitations Act, RSA 2000"
+    },
+    "auto-loan": {
+      "years": 2,
+      "notes": "Auto loan deficiency balances are subject to Alberta's 2-year limitation period from when the deficiency arises.",
+      "citation": "Limitations Act, RSA 2000, c L-12, s 3(1)",
+      "lawName": "Limitations Act, RSA 2000"
+    },
+    "personal-loan": {
+      "years": 2,
+      "notes": "Personal loans in Alberta are subject to the standard 2-year limitation period.",
+      "citation": "Limitations Act, RSA 2000, c L-12, s 3(1)",
+      "lawName": "Limitations Act, RSA 2000"
+    },
+    "student-loan": {
+      "years": 2,
+      "notes": "Private student loans follow Alberta's 2-year limitation. Government Alberta student loans may have different collection rules.",
+      "citation": "Limitations Act, RSA 2000, c L-12, s 3(1)",
+      "lawName": "Limitations Act, RSA 2000"
+    },
+    "mortgage-deficiency": {
+      "years": 2,
+      "notes": "Mortgage deficiency claims in Alberta follow the 2-year limitation period. Note: Alberta's Judicature Act prevents deficiency claims on foreclosure of residential mortgages in many circumstances.",
+      "citation": "Limitations Act, RSA 2000, c L-12, s 3(1); Law of Property Act, RSA 2000, c L-7",
+      "lawName": "Limitations Act, RSA 2000"
+    },
+    "utility-bill": {
+      "years": 2,
+      "notes": "Utility bill debts are subject to Alberta's standard 2-year limitation period.",
+      "citation": "Limitations Act, RSA 2000, c L-12, s 3(1)",
+      "lawName": "Limitations Act, RSA 2000"
+    }
+  },
+  "regulatoryBody": "Service Alberta — Consumer Investigations Unit",
+  "regulatoryBodyUrl": "https://www.alberta.ca/consumer-complaints.aspx",
+  "complaints": "File a complaint with Service Alberta at alberta.ca or call 1-877-427-4088. Collection agencies are regulated under the Fair Trading Act, RSA 2000, c F-2, and the Collections Practices Regulation, Alta Reg 194/1999."
+}

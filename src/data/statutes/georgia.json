@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "georgia",
+  "jurisdictionName": "Georgia",
+  "country": "US",
+  "generalSOL": 6,
+  "generalCitation": "O.C.G.A. § 9-3-24",
+  "debtTypes": {
+    "credit-card": {
+      "years": 6,
+      "notes": "Georgia applies a 6-year limitation to written contracts. However, credit cards may be treated as open accounts subject to a 4-year limitation (O.C.G.A. § 9-3-25). Georgia courts have split on this — the 4-year period is more commonly applied to credit cards. The Georgia Fair Business Practices Act supplements FDCPA protections.",
+      "citation": "O.C.G.A. § 9-3-25 (open account, 4 years); O.C.G.A. § 9-3-24 (written contract, 6 years)",
+      "lawName": "O.C.G.A. § 9-3-25 / § 9-3-24"
+    },
+    "medical": {
+      "years": 6,
+      "notes": "Medical debts in Georgia based on written contracts are subject to the 6-year limitation. Oral agreements or implied contracts may be subject to a 4-year period.",
+      "citation": "O.C.G.A. § 9-3-24",
+      "lawName": "O.C.G.A. § 9-3-24"
+    },
+    "auto-loan": {
+      "years": 6,
+      "notes": "Auto loan deficiency balances in Georgia follow the 6-year written contract limitation from the date of the deficiency.",
+      "citation": "O.C.G.A. § 9-3-24",
+      "lawName": "O.C.G.A. § 9-3-24"
+    },
+    "personal-loan": {
+      "years": 6,
+      "notes": "Personal loans in Georgia are subject to the 6-year limitation for written contracts.",
+      "citation": "O.C.G.A. § 9-3-24",
+      "lawName": "O.C.G.A. § 9-3-24"
+    },
+    "student-loan": {
+      "years": 6,
+      "notes": "Private student loans in Georgia are subject to the 6-year written contract limitation. Federal loans are exempt from state SOL for government collection.",
+      "citation": "O.C.G.A. § 9-3-24",
+      "lawName": "O.C.G.A. § 9-3-24"
+    },
+    "mortgage-deficiency": {
+      "years": 7,
+      "notes": "Georgia allows a 7-year limitation on sealed instruments and mortgages. Deficiency claims after non-judicial foreclosure must be brought within 30 days of the sale.",
+      "citation": "O.C.G.A. § 9-3-23; O.C.G.A. § 44-14-161",
+      "lawName": "O.C.G.A. § 44-14-161"
+    },
+    "utility-bill": {
+      "years": 4,
+      "notes": "Utility bill debts in Georgia are typically treated as open accounts subject to the 4-year limitation.",
+      "citation": "O.C.G.A. § 9-3-25",
+      "lawName": "O.C.G.A. § 9-3-25"
+    }
+  },
+  "regulatoryBody": "Georgia Department of Banking and Finance & Georgia Attorney General",
+  "regulatoryBodyUrl": "https://dbf.georgia.gov/consumer-complaints",
+  "complaints": "File a complaint with GA DBF at dbf.georgia.gov or the GA AG at law.georgia.gov. Georgia's Fair Business Practices Act (O.C.G.A. § 10-1-390 et seq.) provides additional consumer protections."
+}

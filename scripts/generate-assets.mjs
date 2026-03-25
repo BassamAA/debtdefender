@@ -1,0 +1,96 @@
+/**
+ * Generates public/og-image.svg and public/favicon.svg
+ * Run: node scripts/generate-assets.mjs
+ */
+import { writeFileSync, mkdirSync } from 'fs';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const publicDir = join(__dirname, '../public');
+mkdirSync(publicDir, { recursive: true });
+
+// ── OG Image (1200×630 SVG) ──────────────────────────────────────────────────
+const ogSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#060f20"/>
+      <stop offset="100%" style="stop-color:#102b52"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316"/>
+      <stop offset="100%" style="stop-color:#ea6c00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="#163869" stroke-width="1" opacity="0.5"/>
+  <line x1="600" y1="0" x2="600" y2="630" stroke="#163869" stroke-width="1" opacity="0.3"/>
+
+  <!-- Orange accent bar left -->
+  <rect x="0" y="0" width="8" height="630" fill="url(#accent)"/>
+
+  <!-- Shield icon (simplified) -->
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="80" height="80" rx="16" fill="#f97316" opacity="0.2"/>
+    <path d="M40 10 L65 22 L65 45 Q65 62 40 72 Q15 62 15 45 L15 22 Z" fill="none" stroke="#f97316" stroke-width="3"/>
+    <path d="M28 40 L36 48 L54 30" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Main headline -->
+  <text x="100" y="175" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="900" fill="white">DebtDefender</text>
+
+  <!-- Orange underline -->
+  <rect x="100" y="190" width="540" height="5" rx="2" fill="url(#accent)"/>
+
+  <!-- Subheadline -->
+  <text x="100" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="400" fill="#94a3b8">Stop Debt Collectors in Their Tracks</text>
+
+  <!-- Feature pills -->
+  <g transform="translate(100, 310)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="220" height="44" rx="22" fill="#163869" stroke="#f97316" stroke-width="1.5"/>
+    <text x="110" y="27" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#f97316">✓ SOL Checker — Free</text>
+
+    <!-- Pill 2 -->
+    <rect x="240" y="0" width="220" height="44" rx="22" fill="#163869" stroke="#4682b4" stroke-width="1.5"/>
+    <text x="350" y="27" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#7bafd4">✓ FDCPA Letter Generator</text>
+
+    <!-- Pill 3 -->
+    <rect x="480" y="0" width="200" height="44" rx="22" fill="#163869" stroke="#22c55e" stroke-width="1.5"/>
+    <text x="580" y="27" text-anchor="middle" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="#4ade80">✓ Know Your Rights</text>
+  </g>
+
+  <!-- Legal shield decoration (right side) -->
+  <g transform="translate(880, 130)" opacity="0.12">
+    <path d="M120 0 L240 55 L240 175 Q240 270 120 315 Q0 270 0 175 L0 55 Z" fill="#f97316"/>
+  </g>
+  <g transform="translate(880, 130)" opacity="0.25">
+    <path d="M120 0 L240 55 L240 175 Q240 270 120 315 Q0 270 0 175 L0 55 Z" fill="none" stroke="#f97316" stroke-width="3"/>
+    <path d="M75 155 L105 185 L170 118" stroke="#f97316" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Bottom tagline -->
+  <text x="600" y="570" text-anchor="middle" font-family="system-ui, sans-serif" font-size="22" fill="#475569">
+    US &amp; Canada · FDCPA · Provincial Law · Instant PDF Letters
+  </text>
+</svg>`;
+
+writeFileSync(join(publicDir, 'og-image.svg'), ogSvg);
+console.log('✓ Created public/og-image.svg');
+
+// ── Favicon SVG (32×32) ───────────────────────────────────────────────────────
+const faviconSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#f97316"/>
+  <path d="M16 4 L26 8.5 L26 18 Q26 25 16 29 Q6 25 6 18 L6 8.5 Z" fill="none" stroke="white" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M11 16.5 L14.5 20 L21.5 13" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>`;
+
+writeFileSync(join(publicDir, 'favicon.svg'), faviconSvg);
+console.log('✓ Created public/favicon.svg');
+
+console.log('\nNote: For best browser compatibility, convert favicon.svg to favicon.ico');
+console.log('You can use: https://favicon.io/favicon-converter/ or any online converter');

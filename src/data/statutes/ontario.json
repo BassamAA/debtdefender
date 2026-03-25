@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "ontario",
+  "jurisdictionName": "Ontario",
+  "country": "CA",
+  "generalSOL": 2,
+  "generalCitation": "Limitations Act, 2002, S.O. 2002, c. 24, Sched. B, s. 4",
+  "debtTypes": {
+    "credit-card": {
+      "years": 2,
+      "notes": "Ontario's 2-year basic limitation period applies from the date the debt was discovered or the last date of activity (payment or written acknowledgement). Many credit card agreements have an acknowledgement clause — ensure no payments have been made recently.",
+      "citation": "Limitations Act, 2002, S.O. 2002, c. 24, Sched. B, s. 4",
+      "lawName": "Limitations Act, 2002"
+    },
+    "medical": {
+      "years": 2,
+      "notes": "Medical debts in Ontario are subject to the standard 2-year limitation period. The clock typically starts from the date the bill was due and unpaid.",
+      "citation": "Limitations Act, 2002, S.O. 2002, c. 24, Sched. B, s. 4",
+      "lawName": "Limitations Act, 2002"
+    },
+    "auto-loan": {
+      "years": 2,
+      "notes": "Auto loan deficiency balances (remaining amount after vehicle repossession and sale) are subject to the 2-year limitation period, typically running from the date of the deficiency notice.",
+      "citation": "Limitations Act, 2002, S.O. 2002, c. 24, Sched. B, s. 4",
+      "lawName": "Limitations Act, 2002"
+    },
+    "personal-loan": {
+      "years": 2,
+      "notes": "Personal loans are subject to Ontario's standard 2-year limitation period from the date the debt was acknowledged or last payment made.",
+      "citation": "Limitations Act, 2002, S.O. 2002, c. 24, Sched. B, s. 4",
+      "lawName": "Limitations Act, 2002"
+    },
+    "student-loan": {
+      "years": 2,
+      "notes": "Private student loans follow Ontario's 2-year limitation period. Government-guaranteed OSAP loans may have different rules — consult a lawyer or the National Student Loans Service Centre for federal loan timelines.",
+      "citation": "Limitations Act, 2002, S.O. 2002, c. 24, Sched. B, s. 4",
+      "lawName": "Limitations Act, 2002"
+    },
+    "mortgage-deficiency": {
+      "years": 10,
+      "notes": "Mortgage deficiency claims in Ontario may be subject to a 10-year limitation period under the Real Property Limitations Act, but many are governed by the 2-year basic period depending on the type of action taken. Consult a lawyer for your specific situation.",
+      "citation": "Real Property Limitations Act, R.S.O. 1990, c. L.15, s. 4; Limitations Act, 2002, s. 4",
+      "lawName": "Real Property Limitations Act / Limitations Act, 2002"
+    },
+    "utility-bill": {
+      "years": 2,
+      "notes": "Unpaid utility bills are subject to Ontario's standard 2-year limitation period from when the amount was due and unpaid.",
+      "citation": "Limitations Act, 2002, S.O. 2002, c. 24, Sched. B, s. 4",
+      "lawName": "Limitations Act, 2002"
+    }
+  },
+  "regulatoryBody": "Ministry of Public and Business Service Delivery — Consumer Protection Ontario",
+  "regulatoryBodyUrl": "https://www.ontario.ca/page/collections-agencies",
+  "complaints": "File a complaint at ontario.ca or call 1-800-889-9768. Collection agencies in Ontario are licensed under the Collection and Debt Settlement Services Act, R.S.O. 1990, c. C.14."
+}

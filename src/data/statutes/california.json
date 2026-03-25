@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "california",
+  "jurisdictionName": "California",
+  "country": "US",
+  "generalSOL": 4,
+  "generalCitation": "Cal. Code Civ. Proc. § 337",
+  "debtTypes": {
+    "credit-card": {
+      "years": 4,
+      "notes": "California courts treat credit card debt as a written contract, subject to the 4-year limitation under CCP § 337. The clock typically starts on the date of the first missed payment. California's Rosenthal Fair Debt Collection Practices Act extends FDCPA-like protections to original creditors as well as collectors.",
+      "citation": "Cal. Code Civ. Proc. § 337; Cal. Civ. Code §§ 1788–1788.33 (Rosenthal FDCPA)",
+      "lawName": "Cal. Code Civ. Proc. § 337"
+    },
+    "medical": {
+      "years": 4,
+      "notes": "Medical debts based on written agreements are subject to California's 4-year limitation. California has enacted SB 1061 (2022) which provides significant medical debt protections, including prohibiting reporting medical debt to credit bureaus.",
+      "citation": "Cal. Code Civ. Proc. § 337; Cal. Health & Safety Code § 127400 et seq.",
+      "lawName": "Cal. Code Civ. Proc. § 337"
+    },
+    "auto-loan": {
+      "years": 4,
+      "notes": "Auto loan deficiency balances are subject to California's 4-year limitation for written contracts. Note: California prohibits deficiency judgments on purchase money mortgages (one-action rule).",
+      "citation": "Cal. Code Civ. Proc. § 337",
+      "lawName": "Cal. Code Civ. Proc. § 337"
+    },
+    "personal-loan": {
+      "years": 4,
+      "notes": "Personal loans in California are subject to the 4-year limitation for written contracts, or 2 years for oral agreements (CCP § 339).",
+      "citation": "Cal. Code Civ. Proc. § 337 (written) / § 339 (oral)",
+      "lawName": "Cal. Code Civ. Proc. § 337"
+    },
+    "student-loan": {
+      "years": 4,
+      "notes": "Private student loans in California are subject to the 4-year limitation. California has enacted the Student Loan Servicing Act providing additional protections. Federal loans are not subject to state SOL for government collection.",
+      "citation": "Cal. Code Civ. Proc. § 337; Cal. Fin. Code § 28100 et seq.",
+      "lawName": "Cal. Code Civ. Proc. § 337"
+    },
+    "mortgage-deficiency": {
+      "years": 3,
+      "notes": "California's anti-deficiency laws (CCP §§ 580b, 580d) prohibit deficiency judgments on purchase money mortgages and non-judicial foreclosures. For judicial foreclosures where a deficiency is allowed, the action must be brought within 3 months after the foreclosure sale.",
+      "citation": "Cal. Code Civ. Proc. § 726; Cal. Code Civ. Proc. § 580b; Cal. Code Civ. Proc. § 726(b)",
+      "lawName": "Cal. Code Civ. Proc. §§ 580b, 726"
+    },
+    "utility-bill": {
+      "years": 4,
+      "notes": "Utility bills based on a written service agreement are subject to California's 4-year limitation period.",
+      "citation": "Cal. Code Civ. Proc. § 337",
+      "lawName": "Cal. Code Civ. Proc. § 337"
+    }
+  },
+  "regulatoryBody": "California Department of Financial Protection and Innovation (DFPI) & California Attorney General",
+  "regulatoryBodyUrl": "https://dfpi.ca.gov/file-a-complaint/",
+  "complaints": "File a complaint with the CA DFPI at dfpi.ca.gov or the CA AG at oag.ca.gov. California's Rosenthal FDCPA (Civil Code § 1788) covers both original creditors and debt collectors."
+}

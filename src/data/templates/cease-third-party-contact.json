@@ -1,0 +1,41 @@
+[
+  {
+    "letterType": "cease-third-party-contact",
+    "jurisdiction": "us-federal",
+    "applicableToAllJurisdictions": true,
+    "legalCitations": [
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692b (Section 804) — Acquisition of Location Information",
+        "description": "A debt collector may contact third parties only to locate the consumer, may not state that the consumer owes any debt, and may not contact a third party more than once unless requested by the third party or if the collector believes the earlier response was erroneous."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692c(b) (Section 805(b)) — Communication with Third Parties",
+        "description": "Except as provided in § 1692b (location information), a debt collector may not communicate with any person other than the consumer, the consumer's attorney, a consumer reporting agency, the creditor, or the creditor's attorney in connection with collection of a debt."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692d (Section 806) — Harassment or Abuse",
+        "description": "A debt collector may not engage in conduct the natural consequence of which is to harass, oppress, or abuse any person in connection with the collection of a debt."
+      }
+    ],
+    "subject": "FORMAL NOTICE — CEASE ALL CONTACT WITH THIRD PARTIES REGARDING THIS ALLEGED DEBT",
+    "openingParagraph": "I am writing to formally demand that you immediately cease and desist all contact with any third parties — including but not limited to family members, neighbors, friends, or coworkers — regarding the above-referenced alleged debt. Such contact is a direct violation of the Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. §§ 1692b and 1692c(b).",
+    "bodyParagraphs": [
+      "Under 15 U.S.C. § 1692c(b), debt collectors are prohibited from communicating about a consumer's debt with third parties except in extremely narrow circumstances (obtaining location information, communicating with a consumer's attorney, or communicating with a consumer reporting agency). Contacting family members, neighbors, or other individuals about my debt violates this provision.",
+      "Even the limited exception for location information (15 U.S.C. § 1692b) prohibits a collector from disclosing that a consumer owes a debt, from contacting the same third party more than once, or from engaging in any conduct that could reasonably be construed as harassing or embarrassing the consumer.",
+      "Contacting people in my life about this alleged debt is not only a violation of federal law, it is causing me serious emotional distress and potential reputational harm. I am documenting all third-party contacts from your organization, including the identities of the individuals contacted and the content of those communications.",
+      "I am fully aware of my right under 15 U.S.C. § 1692k to sue for actual damages, statutory damages of up to $1,000, and attorney's fees for each FDCPA violation. Third-party contact is one of the most serious violations under the FDCPA and often results in significant actual damage awards."
+    ],
+    "demands": [
+      "Immediately cease all contact with any and all third parties regarding this alleged debt",
+      "Specifically cease all contact with my family members, neighbors, friends, and coworkers",
+      "Contact only me directly at the address listed in this letter",
+      "Provide written confirmation that all third-party contact has ceased",
+      "Provide the names of all third parties you have contacted and the content of those communications"
+    ],
+    "consequencesStatement": "Any further third-party contact after receipt of this letter will be reported to the Consumer Financial Protection Bureau (CFPB), the Federal Trade Commission (FTC), and my state attorney general. I will also pursue civil litigation under 15 U.S.C. § 1692k for actual damages — which can be substantial when third-party contact causes reputational harm, damaged relationships, or emotional distress — plus statutory damages of $1,000 and attorney's fees.",
+    "closingStatement": "This is your formal written notice to immediately cease all third-party contact. Respond in writing to confirm compliance. Do not telephone me or any person in my life regarding this matter."
+  }
+]

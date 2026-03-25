@@ -1,0 +1,42 @@
+[
+  {
+    "letterType": "dispute-amount",
+    "jurisdiction": "us-federal",
+    "applicableToAllJurisdictions": true,
+    "legalCitations": [
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692g (Section 809) — Validation of Debts",
+        "description": "Upon written dispute, the debt collector must cease collection activities and obtain verification of the debt, including the amount claimed, before resuming collection."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692f(1) (Section 808(1)) — Collection of Unauthorized Amounts",
+        "description": "A debt collector may not collect any amount (including any interest, fee, charge, or expense incidental to the principal obligation) unless such amount is expressly authorized by the agreement creating the debt or permitted by law."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692e(2)(A) (Section 807(2)(A)) — False Representation of Amount",
+        "description": "It is a violation of the FDCPA to falsely represent the character, amount, or legal status of any debt."
+      }
+    ],
+    "subject": "FORMAL DISPUTE OF AMOUNT CLAIMED — DEMAND FOR COMPLETE ACCOUNTING",
+    "openingParagraph": "I am writing to formally dispute the amount claimed in your collection demand. The amount you are attempting to collect appears to be inaccurate. Pursuant to the Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692g, I hereby dispute this debt in part as to the amount claimed, and demand a complete accounting of all charges.",
+    "bodyParagraphs": [
+      "The FDCPA, specifically 15 U.S.C. § 1692f(1) (Section 808(1)), prohibits debt collectors from collecting any amount — including interest, fees, charges, or expenses — that is not expressly authorized by the original agreement or permitted by law. Collecting unauthorized amounts is an FDCPA violation regardless of whether the underlying debt is legitimate.",
+      "I am demanding a complete and itemized breakdown of every charge included in the amount you are seeking to collect. Without this information, I cannot verify whether the amount is accurate and lawfully owed.",
+      "If any portion of the amount you are seeking includes fees, charges, interest, or collection costs that were not authorized in the original credit agreement or permitted by applicable law, those amounts must be immediately removed from your demand. Collecting unauthorized amounts violates 15 U.S.C. § 1692f(1) and constitutes an unfair practice under the FDCPA.",
+      "Additionally, 15 U.S.C. § 1692e(2)(A) prohibits misrepresenting the amount of any debt. If the amount you have stated is inaccurate, that misrepresentation is a separate FDCPA violation."
+    ],
+    "demands": [
+      "A complete itemized accounting of the total amount claimed, broken down as follows: (a) original principal balance, (b) all interest charges with dates and rates applied, (c) all fees charged with dates and descriptions, (d) all collection costs with legal authority for their inclusion",
+      "A copy of the original credit agreement or contract that authorized the interest rates and fees being charged",
+      "The date on which the original creditor declared the account in default",
+      "The amount at the time of default before any additional charges were added",
+      "Confirmation that no amounts have been added that are not authorized by the original agreement or applicable law",
+      "Cease all collection activity until the complete accounting is provided and I have had a reasonable opportunity to review it"
+    ],
+    "consequencesStatement": "If you cannot provide a complete accounting showing that every charge is properly authorized, I expect the unauthorized amounts to be removed from your demand immediately. I will file complaints with the Consumer Financial Protection Bureau (CFPB) and my state attorney general for any violation of 15 U.S.C. § 1692f(1) (collecting unauthorized amounts) or § 1692e(2)(A) (misrepresenting the amount of the debt). I will also pursue civil remedies under 15 U.S.C. § 1692k.",
+    "closingStatement": "Please provide the complete accounting in writing within 30 days. Do not contact me by telephone regarding this matter."
+  }
+]

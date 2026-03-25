@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "british-columbia",
+  "jurisdictionName": "British Columbia",
+  "country": "CA",
+  "generalSOL": 2,
+  "generalCitation": "Limitation Act, SBC 2012, c 13, s 6",
+  "debtTypes": {
+    "credit-card": {
+      "years": 2,
+      "notes": "BC's 2-year basic limitation period applies to credit card debts. The clock starts on the date you last made a payment, acknowledged the debt in writing, or the debt became due. Making even a small payment can restart the clock.",
+      "citation": "Limitation Act, SBC 2012, c 13, s 6",
+      "lawName": "Limitation Act, SBC 2012"
+    },
+    "medical": {
+      "years": 2,
+      "notes": "Private medical debts are subject to BC's 2-year limitation period. Note that MSP-related debts to the provincial government may have different collection rules.",
+      "citation": "Limitation Act, SBC 2012, c 13, s 6",
+      "lawName": "Limitation Act, SBC 2012"
+    },
+    "auto-loan": {
+      "years": 2,
+      "notes": "Auto loan deficiency balances follow BC's 2-year limitation period from the date the deficiency arises after vehicle repossession.",
+      "citation": "Limitation Act, SBC 2012, c 13, s 6",
+      "lawName": "Limitation Act, SBC 2012"
+    },
+    "personal-loan": {
+      "years": 2,
+      "notes": "Personal loan debts in BC are subject to the standard 2-year limitation period.",
+      "citation": "Limitation Act, SBC 2012, c 13, s 6",
+      "lawName": "Limitation Act, SBC 2012"
+    },
+    "student-loan": {
+      "years": 2,
+      "notes": "Private BC student loans follow the 2-year limitation. Provincial StudentAid BC loans and federal loans may have different timelines.",
+      "citation": "Limitation Act, SBC 2012, c 13, s 6",
+      "lawName": "Limitation Act, SBC 2012"
+    },
+    "mortgage-deficiency": {
+      "years": 2,
+      "notes": "Mortgage deficiency claims in BC are subject to the 2-year limitation period under the 2012 Limitation Act. There is also a 15-year ultimate limitation period.",
+      "citation": "Limitation Act, SBC 2012, c 13, s 6 and s 21",
+      "lawName": "Limitation Act, SBC 2012"
+    },
+    "utility-bill": {
+      "years": 2,
+      "notes": "Utility bills are subject to BC's standard 2-year limitation period.",
+      "citation": "Limitation Act, SBC 2012, c 13, s 6",
+      "lawName": "Limitation Act, SBC 2012"
+    }
+  },
+  "regulatoryBody": "Consumer Protection BC",
+  "regulatoryBodyUrl": "https://www.consumerprotectionbc.ca",
+  "complaints": "File a complaint with Consumer Protection BC at consumerprotectionbc.ca or call 1-888-564-9963. Collection agencies are licensed under the Business Practices and Consumer Protection Act, SBC 2004, c 2."
+}

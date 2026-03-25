@@ -1,0 +1,84 @@
+[
+  {
+    "letterType": "cease-and-desist",
+    "jurisdiction": "us-federal",
+    "applicableToAllJurisdictions": false,
+    "applicableTo": ["new-york", "california", "texas", "florida", "illinois", "ohio", "pennsylvania", "georgia"],
+    "legalCitations": [
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692c(c) (Section 805c) — Ceasing Communication",
+        "description": "If a consumer notifies a debt collector in writing that the consumer refuses to pay a debt or that the consumer wishes the debt collector to cease further communication, the debt collector must cease communicating with the consumer. The only exceptions are: notifying the consumer that collection efforts are being terminated, that specified remedies may be invoked, or that the debt collector intends to invoke a specified remedy."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692d (Section 806) — Harassment or Abuse",
+        "description": "A debt collector may not engage in conduct the natural consequence of which is to harass, oppress, or abuse any person in connection with collection of a debt, including causing a telephone to ring or engaging any person in telephone conversation repeatedly or continuously with intent to annoy, abuse, or harass."
+      },
+      {
+        "act": "Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq.",
+        "section": "§ 1692k (Section 813) — Civil Liability",
+        "description": "A debt collector who fails to comply with the FDCPA is liable for actual damages, statutory damages up to $1,000, and attorney's fees and costs."
+      }
+    ],
+    "subject": "CEASE AND DESIST ALL COMMUNICATION — WRITTEN NOTICE PURSUANT TO 15 U.S.C. § 1692c(c)",
+    "openingParagraph": "Pursuant to my rights under the Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692c(c), I hereby formally notify you in writing to CEASE AND DESIST all further communication with me regarding the above-referenced alleged debt, effective immediately upon your receipt of this letter.",
+    "bodyParagraphs": [
+      "Under 15 U.S.C. § 1692c(c), once a consumer notifies a debt collector in writing to cease communication, the debt collector must stop all contact except to: (1) advise the consumer that collection efforts are being terminated; (2) notify the consumer that the debt collector or creditor may invoke specified remedies which are ordinarily invoked; or (3) notify the consumer that the debt collector intends to invoke a specified remedy.",
+      "Be advised that any communication you send to me after receipt of this letter — except for the three narrow exceptions described above — will constitute a violation of the FDCPA. I am documenting all contact from your organization, including the dates, times, and substance of all prior communications.",
+      "I am fully aware of the civil liability provisions under 15 U.S.C. § 1692k. Each violation of the FDCPA entitles me to actual damages, statutory damages up to $1,000, and attorney's fees. I will consult with a consumer rights attorney regarding any ongoing violations."
+    ],
+    "demands": [
+      "Immediately cease all telephone calls to my home, mobile phone, and any other telephone number",
+      "Immediately cease all written correspondence except as permitted under 15 U.S.C. § 1692c(c)",
+      "Do not contact my employer, family members, neighbors, or any third party regarding this alleged debt",
+      "Do not contact me at my workplace under any circumstances",
+      "Confirm in writing that you have received this cease and desist notice and will comply"
+    ],
+    "consequencesStatement": "Any contact beyond what is permitted under 15 U.S.C. § 1692c(c) will be reported to the Consumer Financial Protection Bureau (CFPB) at consumerfinance.gov, the Federal Trade Commission (FTC) at ftc.gov, and my state attorney general. I will also pursue all available legal remedies including civil litigation. Each violation will be documented and may result in statutory damages of up to $1,000 per violation plus attorney's fees awarded under 15 U.S.C. § 1692k.",
+    "closingStatement": "This letter serves as your formal written notice. Keep a copy for your records. Any future contact must comply strictly with the FDCPA."
+  },
+  {
+    "letterType": "cease-and-desist",
+    "jurisdiction": "canada-general",
+    "applicableToAllJurisdictions": false,
+    "applicableTo": ["ontario", "quebec", "british-columbia", "alberta"],
+    "legalCitations": [
+      {
+        "act": "Collection and Debt Settlement Services Act, R.S.O. 1990, c. C.14 (Ontario)",
+        "section": "Section 22(6) — Prohibited Contact",
+        "description": "A collection agency or collector shall not communicate with the debtor after receiving written notice that the debtor disputes the debt and requests that communication cease."
+      },
+      {
+        "act": "Consumer Protection Act, CQLR c P-40.1 (Quebec)",
+        "section": "Section 59 — Prohibition on Harassment",
+        "description": "A merchant or collection agent shall not harass a consumer or a third party in collecting a debt, and must cease contact upon written request."
+      },
+      {
+        "act": "Business Practices and Consumer Protection Act, SBC 2004, c 2 (British Columbia)",
+        "section": "Section 116 — Collector Contact Restrictions",
+        "description": "A collector must not contact a debtor after written notice to cease contact, except to notify the debtor of specific legal proceedings."
+      },
+      {
+        "act": "Collections Practices Regulation, Alta Reg 194/1999 (Alberta)",
+        "section": "Section 3(1) — Prohibited Collection Practices",
+        "description": "A collector shall not contact a debtor after receiving written notice to cease communication regarding the alleged debt."
+      }
+    ],
+    "subject": "FORMAL DEMAND TO CEASE ALL COLLECTION CONTACT — WRITTEN NOTICE UNDER PROVINCIAL LAW",
+    "openingParagraph": "Pursuant to my rights under applicable provincial consumer protection legislation, I hereby formally demand that you CEASE AND DESIST all further communication with me regarding the above-referenced alleged debt, effective immediately upon your receipt of this letter.",
+    "bodyParagraphs": [
+      "Provincial collection agency legislation across Canada requires that collectors cease contact upon written request from a debtor. This letter constitutes my formal written request that all contact — by telephone, mail, email, text, or any other means — stop immediately.",
+      "I am documenting all communications from your agency. Any violation of provincial contact restrictions will be reported to the appropriate regulatory authority, which has the power to discipline or revoke the registration of collection agencies that fail to comply with applicable legislation.",
+      "Note that ceasing contact does not eliminate any legitimate debt obligation that may exist. However, I am exercising my rights to require that any further action proceed through appropriate legal channels rather than through direct collector contact."
+    ],
+    "demands": [
+      "Immediately cease all telephone calls to my residence, mobile phone, or place of work",
+      "Immediately cease all written and electronic correspondence regarding this alleged debt",
+      "Do not contact any member of my family, my employer, or any third party about this matter",
+      "Confirm receipt of this letter and your intention to comply in writing"
+    ],
+    "consequencesStatement": "Any contact after receipt of this letter will be reported as a violation of provincial collection agency legislation to my provincial consumer protection authority. I will also document all violations for potential legal action. Collection agencies that violate applicable provincial legislation are subject to regulatory penalties, fines, and loss of registration.",
+    "closingStatement": "All future communications, if any are legally permitted, must be in writing to the address noted in this letter. Do not telephone me."
+  }
+]

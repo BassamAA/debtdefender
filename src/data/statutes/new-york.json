@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "new-york",
+  "jurisdictionName": "New York",
+  "country": "US",
+  "generalSOL": 6,
+  "generalCitation": "N.Y. C.P.L.R. § 213(2)",
+  "debtTypes": {
+    "credit-card": {
+      "years": 6,
+      "notes": "New York courts generally treat credit card debt as a written contract subject to the 6-year statute of limitations. However, the clock restarts with any payment or written acknowledgement. Important: as of April 2022, New York law bars collectors from suing on time-barred debts AND from making misrepresentations about time-barred debts.",
+      "citation": "N.Y. C.P.L.R. § 213(2); N.Y. Gen. Bus. Law § 601-a",
+      "lawName": "N.Y. C.P.L.R. § 213(2)"
+    },
+    "medical": {
+      "years": 6,
+      "notes": "Medical debt based on a written agreement is subject to New York's 6-year limitation. If based on an implied contract or account stated, it may also be 6 years. New York has significant medical debt protections — hospitals cannot report medical debt to credit bureaus for patients below 400% of the federal poverty level.",
+      "citation": "N.Y. C.P.L.R. § 213(2)",
+      "lawName": "N.Y. C.P.L.R. § 213"
+    },
+    "auto-loan": {
+      "years": 6,
+      "notes": "Auto loan deficiency balances are treated as written contract claims, subject to New York's 6-year limitation period from the date of default or sale of repossessed vehicle.",
+      "citation": "N.Y. C.P.L.R. § 213(2)",
+      "lawName": "N.Y. C.P.L.R. § 213(2)"
+    },
+    "personal-loan": {
+      "years": 6,
+      "notes": "Personal loans evidenced by a written agreement are subject to the 6-year limitation period in New York.",
+      "citation": "N.Y. C.P.L.R. § 213(2)",
+      "lawName": "N.Y. C.P.L.R. § 213(2)"
+    },
+    "student-loan": {
+      "years": 6,
+      "notes": "Private student loans in New York are generally subject to the 6-year limitation for written contracts. Federal student loans are not subject to a statute of limitations for collection by the federal government, but private collectors may be limited.",
+      "citation": "N.Y. C.P.L.R. § 213(2)",
+      "lawName": "N.Y. C.P.L.R. § 213(2)"
+    },
+    "mortgage-deficiency": {
+      "years": 6,
+      "notes": "Mortgage deficiency judgments in New York must be sought within 90 days of the foreclosure sale (Real Property Actions and Proceedings Law § 1371). If a deficiency judgment has been obtained, it is then enforceable for 20 years.",
+      "citation": "N.Y. Real Property Actions and Proceedings Law § 1371; N.Y. C.P.L.R. § 211",
+      "lawName": "N.Y. Real Property Actions and Proceedings Law § 1371"
+    },
+    "utility-bill": {
+      "years": 6,
+      "notes": "Utility bill debts are subject to New York's standard 6-year limitation period for written contracts.",
+      "citation": "N.Y. C.P.L.R. § 213(2)",
+      "lawName": "N.Y. C.P.L.R. § 213(2)"
+    }
+  },
+  "regulatoryBody": "New York State Department of Financial Services (DFS) & New York State Attorney General",
+  "regulatoryBodyUrl": "https://www.dfs.ny.gov/consumers/file_complaint",
+  "complaints": "File a complaint with the NY DFS at dfs.ny.gov or the NY AG at ag.ny.gov. New York's Debt Collection Procedures Law (Gen. Bus. Law § 601) provides additional state-level protections beyond the FDCPA."
+}

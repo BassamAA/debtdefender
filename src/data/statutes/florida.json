@@ -1,0 +1,54 @@
+{
+  "jurisdiction": "florida",
+  "jurisdictionName": "Florida",
+  "country": "US",
+  "generalSOL": 5,
+  "generalCitation": "Fla. Stat. § 95.11(2)(b)",
+  "debtTypes": {
+    "credit-card": {
+      "years": 5,
+      "notes": "Florida reduced its statute of limitations for written contracts from 5 years to 5 years (note: in 2023 HB 837 changed many SOL periods — credit card agreements signed before July 1, 2023 may have a 5-year SOL; agreements after may have 4 years for breach of written contract). Verify the current law for your specific situation.",
+      "citation": "Fla. Stat. § 95.11(2)(b) (pre-2023); Fla. Stat. § 95.11(3)(p) (post-HB 837 for some claims)",
+      "lawName": "Fla. Stat. § 95.11"
+    },
+    "medical": {
+      "years": 4,
+      "notes": "Medical malpractice claims have a 2-year SOL, but medical billing debt (breach of contract for services) is generally 4-5 years. Florida also enacted medical debt protections in 2023 limiting credit reporting of medical debt.",
+      "citation": "Fla. Stat. § 95.11(3)(k) (open account, 4 years)",
+      "lawName": "Fla. Stat. § 95.11"
+    },
+    "auto-loan": {
+      "years": 5,
+      "notes": "Auto loan deficiency balances are subject to Florida's 5-year limitation for written contracts from the date of the deficiency after vehicle sale.",
+      "citation": "Fla. Stat. § 95.11(2)(b)",
+      "lawName": "Fla. Stat. § 95.11(2)(b)"
+    },
+    "personal-loan": {
+      "years": 5,
+      "notes": "Personal loans in Florida are subject to the 5-year limitation period for written contracts.",
+      "citation": "Fla. Stat. § 95.11(2)(b)",
+      "lawName": "Fla. Stat. § 95.11(2)(b)"
+    },
+    "student-loan": {
+      "years": 5,
+      "notes": "Private student loans in Florida are subject to the 5-year written contract limitation. Federal loans are not subject to state SOL for government collection.",
+      "citation": "Fla. Stat. § 95.11(2)(b)",
+      "lawName": "Fla. Stat. § 95.11(2)(b)"
+    },
+    "mortgage-deficiency": {
+      "years": 1,
+      "notes": "Florida has a strict 1-year limitation on deficiency judgments after foreclosure, making Florida one of the strongest anti-deficiency states. After 1 year from the certificate of title, no deficiency can be sought.",
+      "citation": "Fla. Stat. § 702.06",
+      "lawName": "Fla. Stat. § 702.06"
+    },
+    "utility-bill": {
+      "years": 4,
+      "notes": "Utility bill debts in Florida are typically treated as open accounts subject to a 4-year limitation period.",
+      "citation": "Fla. Stat. § 95.11(3)(k)",
+      "lawName": "Fla. Stat. § 95.11(3)(k)"
+    }
+  },
+  "regulatoryBody": "Florida Office of Financial Regulation (OFR) & Florida Attorney General",
+  "regulatoryBodyUrl": "https://www.flofr.gov/sitePages/ConsumerServices.htm",
+  "complaints": "File a complaint with Florida OFR at flofr.gov or the FL AG at myfloridalegal.com. Florida's Consumer Collection Practices Act (Fla. Stat. § 559.55 et seq.) supplements the FDCPA."
+}
