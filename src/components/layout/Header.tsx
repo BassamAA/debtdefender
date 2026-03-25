@@ -16,7 +16,7 @@ export default function Header() {
             <Shield className="w-5 h-5 text-white" />
           </div>
           <span className="font-bold text-lg text-white tracking-tight">
-            Debt<span className="text-orange-500">Defender</span>
+            Debt<span className="text-orange-500">Dispute</span>
           </span>
         </Link>
 

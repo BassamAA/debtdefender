@@ -13,7 +13,7 @@ export default function Footer() {
                 <Shield className="w-5 h-5 text-white" />
               </div>
               <span className="font-bold text-lg text-white">
-                Debt<span className="text-orange-500">Defender</span>
+                Debt<span className="text-orange-500">Dispute</span>
               </span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
