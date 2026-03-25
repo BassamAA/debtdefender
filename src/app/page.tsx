@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { Shield, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'DebtDefender — Stop Debt Collectors in Their Tracks',
+  title: 'DebtDispute — Stop Debt Collectors in Their Tracks',
   description:
     'Free statute of limitations checker and professional debt dispute letter generator. Know your rights under the FDCPA. Fight back against debt collectors legally.',
 };
@@ -52,7 +52,7 @@ export default function HomePage() {
       <section className="py-8 bg-navy-950 border-t border-navy-800">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <p className="text-slate-600 text-xs leading-relaxed">
-            DebtDefender provides document preparation assistance and is not a law firm. This does
+            DebtDispute provides document preparation assistance and is not a law firm. This does
             not constitute legal advice. Consult a licensed attorney for legal counsel. The
             information provided is for general informational purposes only and may not reflect the
             most current legal developments.

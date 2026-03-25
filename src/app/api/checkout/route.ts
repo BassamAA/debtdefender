@@ -35,7 +35,7 @@ export async function POST(req: NextRequest) {
             price_data: {
               currency: 'usd',
               product_data: {
-                name: 'DebtDefender — Single Dispute Letter',
+                name: 'DebtDispute — Single Dispute Letter',
                 description: 'Professional PDF dispute letter with legal citations. One-time download.',
                 images: [`${BASE_URL}/og-image.svg`],
               },
@@ -59,7 +59,7 @@ export async function POST(req: NextRequest) {
             price_data: {
               currency: 'usd',
               product_data: {
-                name: 'DebtDefender — Unlimited Monthly Plan',
+                name: 'DebtDispute — Unlimited Monthly Plan',
                 description: 'Unlimited letters + Interaction Tracker export. Cancel anytime.',
                 images: [`${BASE_URL}/og-image.svg`],
               },

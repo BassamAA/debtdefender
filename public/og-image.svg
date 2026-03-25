@@ -28,7 +28,7 @@
   </g>
 
   <!-- Main headline -->
-  <text x="100" y="175" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="900" fill="white">DebtDefender</text>
+  <text x="100" y="175" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="900" fill="white">DebtDispute</text>
 
   <!-- Orange underline -->
   <rect x="100" y="190" width="540" height="5" rx="2" fill="url(#accent)"/>

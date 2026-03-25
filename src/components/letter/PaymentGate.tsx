@@ -136,7 +136,7 @@ export default function PaymentGate({ formData, letterBody }: Props) {
       </div>
 
       <p className="text-center text-slate-600 text-xs pb-3 px-5">
-        DebtDefender is not a law firm and this is not legal advice. Consult an attorney for
+        DebtDispute is not a law firm and this is not legal advice. Consult an attorney for
         legal counsel specific to your situation.
       </p>
     </div>

@@ -29,7 +29,7 @@ function SuccessContent() {
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'DebtDefender-Letter.pdf';
+      a.download = 'DebtDispute-Letter.pdf';
       document.body.appendChild(a);
       a.click();
       a.remove();
@@ -104,7 +104,7 @@ function SuccessContent() {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-orange-400 mt-0.5">4.</span>
-              <span>Log the interaction in the DebtDefender Tracker.</span>
+              <span>Log the interaction in the DebtDispute Tracker.</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-orange-400 mt-0.5">5.</span>

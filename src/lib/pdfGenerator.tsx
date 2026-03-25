@@ -194,16 +194,16 @@ export function LetterPDFDocument({ letter }: Props) {
 
   return (
     <Document
-      title={`DebtDefender — ${letterLabel}`}
-      author="DebtDefender"
+      title={`DebtDispute — ${letterLabel}`}
+      author="DebtDispute"
       subject={`${letterLabel} — ${letter.dateGenerated}`}
       keywords="debt collection, FDCPA, consumer rights, debt dispute"
-      creator="DebtDefender (debtdefender.com)"
+      creator="DebtDispute (debtdispute.com)"
     >
       <Page size="LETTER" style={styles.page}>
         {/* Header */}
         <View style={styles.header} fixed>
-          <Text style={styles.headerTitle}>DebtDefender — Know Your Rights</Text>
+          <Text style={styles.headerTitle}>DebtDispute — Know Your Rights</Text>
           <Text style={styles.headerSubtitle}>
             {letterLabel.toUpperCase()} — GENERATED {letter.dateGenerated.toUpperCase()}
           </Text>
@@ -292,7 +292,7 @@ export function LetterPDFDocument({ letter }: Props) {
         {/* Warning box */}
         <View style={styles.warningBox}>
           <Text style={styles.warningText}>
-            DebtDefender provides document preparation assistance and is not a law firm. This document
+            DebtDispute provides document preparation assistance and is not a law firm. This document
             does not constitute legal advice. Consult a licensed attorney for legal counsel specific to
             your situation.
           </Text>
@@ -300,7 +300,7 @@ export function LetterPDFDocument({ letter }: Props) {
 
         {/* Footer */}
         <Text style={styles.footer} fixed>
-          DebtDefender — This document was prepared using information provided by the user. It is not
+          DebtDispute — This document was prepared using information provided by the user. It is not
           legal advice. Consult a licensed attorney.
         </Text>
 

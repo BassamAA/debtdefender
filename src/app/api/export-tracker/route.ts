@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
 
     const doc = React.createElement(
       Document,
-      { title: 'DebtDefender Interaction Log' },
+      { title: 'DebtDispute Interaction Log' },
       React.createElement(
         Page,
         { size: 'LETTER', style: styles.page },
@@ -42,7 +42,7 @@ export async function POST(req: NextRequest) {
         React.createElement(
           View,
           { style: styles.header },
-          React.createElement(Text, { style: styles.title }, 'DebtDefender — Collector Interaction Log'),
+          React.createElement(Text, { style: styles.title }, 'DebtDispute — Collector Interaction Log'),
           React.createElement(Text, { style: styles.subtitle }, `Generated: ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })} — This document may serve as evidence for CFPB complaints or legal action.`)
         ),
         // Summary
@@ -93,7 +93,7 @@ export async function POST(req: NextRequest) {
               : null
           )
         ),
-        React.createElement(Text, { style: styles.footer }, 'DebtDefender Interaction Log — For personal documentation only. Not legal advice. Consult a licensed attorney.')
+        React.createElement(Text, { style: styles.footer }, 'DebtDispute Interaction Log — For personal documentation only. Not legal advice. Consult a licensed attorney.')
       )
     );
 
@@ -102,7 +102,7 @@ export async function POST(req: NextRequest) {
     return new NextResponse(new Uint8Array(buffer), {
       headers: {
         'Content-Type': 'application/pdf',
-        'Content-Disposition': 'attachment; filename="DebtDefender-Interaction-Log.pdf"',
+        'Content-Disposition': 'attachment; filename="DebtDispute-Interaction-Log.pdf"',
         'Cache-Control': 'private, no-store',
       },
     });

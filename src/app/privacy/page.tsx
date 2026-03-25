@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'DebtDefender privacy policy — how we handle your data.',
+  description: 'DebtDispute privacy policy — how we handle your data.',
 };
 
 export default function PrivacyPage() {
@@ -13,7 +13,7 @@ export default function PrivacyPage() {
         <div className="prose prose-invert max-w-none text-slate-300 text-sm leading-relaxed space-y-5">
           <p><strong className="text-white">Last Updated:</strong> March 2025</p>
           <p>
-            DebtDefender (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;) is committed to protecting your privacy. This
+            DebtDispute (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;) is committed to protecting your privacy. This
             policy describes what information we collect and how we use it.
           </p>
           <h2 className="text-white text-xl font-bold mt-6">Information We Collect</h2>

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Plus, Trash2, Download, AlertTriangle } from 'lucide-react';
 import type { InteractionLog } from '@/types';
 
-const STORAGE_KEY = 'debtdefender_interactions';
+const STORAGE_KEY = 'debtdispute_interactions';
 
 const CONTACT_METHODS = [
   { value: 'phone',     label: 'Phone Call',     icon: '📞' },
@@ -98,7 +98,7 @@ export default function InteractionTracker() {
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'DebtDefender-Interaction-Log.pdf';
+      a.download = 'DebtDispute-Interaction-Log.pdf';
       document.body.appendChild(a);
       a.click();
       a.remove();
@@ -358,7 +358,7 @@ export default function InteractionTracker() {
       {/* Disclaimer */}
       <p className="text-slate-600 text-xs mt-8 text-center leading-relaxed">
         Interaction data is stored locally in your browser only. It is not sent to any server.
-        Export to PDF before clearing your browser data. DebtDefender is not a law firm —
+        Export to PDF before clearing your browser data. DebtDispute is not a law firm —
         this tracker is for your personal documentation only.
       </p>
     </div>

@@ -3,13 +3,13 @@ import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://debtdefender.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://debtdispute.com';
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'DebtDefender — Stop Debt Collectors in Their Tracks',
-    template: '%s | DebtDefender',
+    default: 'DebtDispute — Stop Debt Collectors in Their Tracks',
+    template: '%s | DebtDispute',
   },
   description:
     'Free statute of limitations checker and professional debt dispute letter generator. Know your rights under the FDCPA. Fight back against abusive debt collectors legally.',
@@ -24,14 +24,14 @@ export const metadata: Metadata = {
     'stop debt collector calls',
     'debt collection laws',
   ],
-  authors: [{ name: 'DebtDefender' }],
-  creator: 'DebtDefender',
+  authors: [{ name: 'DebtDispute' }],
+  creator: 'DebtDispute',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: BASE_URL,
-    siteName: 'DebtDefender',
-    title: 'DebtDefender — Stop Debt Collectors in Their Tracks',
+    siteName: 'DebtDispute',
+    title: 'DebtDispute — Stop Debt Collectors in Their Tracks',
     description:
       'Free statute of limitations checker and professional debt dispute letter generator. Know your rights. Fight back legally.',
     images: [
@@ -39,13 +39,13 @@ export const metadata: Metadata = {
         url: `${BASE_URL}/og-image.svg`,
         width: 1200,
         height: 630,
-        alt: 'DebtDefender — Know Your Rights Against Debt Collectors',
+        alt: 'DebtDispute — Know Your Rights Against Debt Collectors',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'DebtDefender — Stop Debt Collectors in Their Tracks',
+    title: 'DebtDispute — Stop Debt Collectors in Their Tracks',
     description: 'Free statute of limitations checker + professional dispute letter generator.',
     images: [`${BASE_URL}/og-image.svg`],
   },

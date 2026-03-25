@@ -48,7 +48,7 @@ export async function POST(req: NextRequest) {
     return new NextResponse(new Uint8Array(pdfBuffer), {
       headers: {
         'Content-Type': 'application/pdf',
-        'Content-Disposition': `attachment; filename="DebtDefender-Letter-${letter.letterType}.pdf"`,
+        'Content-Disposition': `attachment; filename="DebtDispute-Letter-${letter.letterType}.pdf"`,
         'Cache-Control': 'private, no-store',
       },
     });

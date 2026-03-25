@@ -296,7 +296,7 @@ export default async function LetterTypePage({ params }: Props) {
       <section className="py-6 border-t border-navy-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
           <p className="text-slate-600 text-xs leading-relaxed">
-            DebtDefender provides document preparation assistance and is not a law firm. This
+            DebtDispute provides document preparation assistance and is not a law firm. This
             does not constitute legal advice. Consult a licensed attorney for legal counsel.
           </p>
         </div>

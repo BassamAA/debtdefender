@@ -39,7 +39,7 @@ export default function Step5Preview({ formData, letterBody, letterType, isGener
           <div className="w-2 h-2 rounded-full bg-yellow-500" />
           <div className="w-2 h-2 rounded-full bg-green-500" />
           <span className="text-slate-400 text-xs ml-2 font-mono">
-            DebtDefender — {letterType}
+            DebtDispute — {letterType}
           </span>
         </div>
 

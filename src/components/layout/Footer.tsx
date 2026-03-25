@@ -21,7 +21,7 @@ export default function Footer() {
               with professional, law-backed documentation.
             </p>
             <p className="mt-4 text-xs text-slate-500 leading-relaxed">
-              DebtDefender provides document preparation assistance and is not a law firm. This
+              DebtDispute provides document preparation assistance and is not a law firm. This
               does not constitute legal advice. Consult a licensed attorney for legal counsel
               specific to your situation.
             </p>
@@ -88,7 +88,7 @@ export default function Footer() {
 
         <div className="border-t border-navy-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-xs">
-            © {new Date().getFullYear()} DebtDefender. All rights reserved.
+            © {new Date().getFullYear()} DebtDispute. All rights reserved.
           </p>
           <div className="flex gap-4 text-xs text-slate-500">
             <Link href="/privacy" className="hover:text-slate-300 transition-colors">
