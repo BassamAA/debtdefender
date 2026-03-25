@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: 'Interaction Tracker — Log Every Collector Contact',
   description:
     'Document every debt collector contact. Log dates, what they said, and any rights violations. Export as PDF evidence for CFPB complaints or legal action.',
+  robots: { index: false, follow: false },
 };
 
 export default function TrackerPage() {

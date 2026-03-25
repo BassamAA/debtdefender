@@ -71,8 +71,59 @@ export default async function JurisdictionDebtPage({ params }: Props) {
   const isUS = jInfo.country === 'US';
   const law = isUS ? 'the Fair Debt Collection Practices Act (FDCPA)' : 'provincial collection agency legislation';
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: '/' },
+      { '@type': 'ListItem', position: 2, name: jInfo.name, item: `/${jurisdictionSlug}` },
+      { '@type': 'ListItem', position: 3, name: dtInfo.label, item: `/${jurisdictionSlug}/${debtSlug}` },
+    ],
+  };
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: `What is the statute of limitations for ${dtInfo.label.toLowerCase()} in ${jInfo.name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `The statute of limitations for ${dtInfo.label.toLowerCase()} in ${jInfo.name} is ${statute.years} years (${statute.citation}). After this period, the debt becomes legally unenforceable through the courts.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What happens after the statute of limitations expires on a ${dtInfo.label.toLowerCase()} in ${jInfo.name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `Once the ${statute.years}-year limitation period expires in ${jInfo.name}, collectors cannot obtain a court judgment against you. Any lawsuit filed after this deadline can be dismissed by raising the statute of limitations as a defense.`,
+        },
+      },
+      {
+        '@type': 'Question',
+        name: 'Can making a payment restart the statute of limitations?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Yes. Making any payment — even $1 — or sending a written acknowledgement that you owe the debt can restart the statute of limitations in most jurisdictions. Do not make any payment or written response on an old debt without first verifying whether the debt is time-barred.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: `What law governs the statute of limitations for ${dtInfo.label.toLowerCase()} in ${jInfo.name}?`,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `In ${jInfo.name}, the statute of limitations for ${dtInfo.label.toLowerCase()} is governed by ${statute.citation} (${statute.lawName}). ${statute.notes ?? ''}`.trim(),
+        },
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen bg-navy-950">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       {/* Hero */}
       <section className="py-16 bg-gradient-to-b from-navy-900 to-navy-950 border-b border-navy-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">

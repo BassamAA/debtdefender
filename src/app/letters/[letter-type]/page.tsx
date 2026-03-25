@@ -194,8 +194,32 @@ export default async function LetterTypePage({ params }: Props) {
   const content = LETTER_CONTENT[letterType];
   const label = LETTER_TYPE_LABELS[letterType];
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: '/' },
+      { '@type': 'ListItem', position: 2, name: 'Dispute Letters', item: '/wizard' },
+      { '@type': 'ListItem', position: 3, name: label, item: `/letters/${slug}` },
+    ],
+  };
+
+  const howToSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: `How to Use a ${content.headline}`,
+    description: content.seoDescription,
+    step: content.whatItDoes.map((step, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      text: step,
+    })),
+  };
+
   return (
     <div className="min-h-screen bg-navy-950">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
       {/* Hero */}
       <section className="py-16 bg-gradient-to-b from-navy-900 to-navy-950 border-b border-navy-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">

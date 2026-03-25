@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'Generate a Dispute Letter',
   description:
     'Generate a professional, law-citing debt dispute letter in minutes. Choose your situation, select your goals, and download a PDF ready to mail.',
+  robots: { index: false, follow: false },
 };
 
 export default function WizardPage() {

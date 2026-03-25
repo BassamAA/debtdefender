@@ -12,9 +12,95 @@ export const metadata: Metadata = {
     'Free statute of limitations checker and professional debt dispute letter generator. Know your rights under the FDCPA. Fight back against debt collectors legally.',
 };
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://debtdispute.com';
+
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'DebtDispute',
+  url: BASE_URL,
+  logo: `${BASE_URL}/og-image.svg`,
+  description:
+    'Free statute of limitations checker and professional debt dispute letter generator. Know your rights under the FDCPA.',
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  url: BASE_URL,
+  name: 'DebtDispute',
+  description: 'Free statute of limitations checker and professional debt dispute letter generator.',
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Is it legal to dispute a debt?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Absolutely. Disputing a debt is a federally protected right under the Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692g. When you send a written dispute, the debt collector must stop all collection activity until they verify the debt.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Will disputing a debt hurt my credit score?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Disputing a debt through a collector does not directly affect your credit score. However, if the debt is already on your credit report, you should also file a dispute directly with the credit bureaus under the Fair Credit Reporting Act (FCRA), 15 U.S.C. § 1681i.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is debt validation? Why should I request it?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Debt validation is the process by which a debt collector proves that the debt exists, the amount is correct, and they have the legal right to collect it. Under 15 U.S.C. § 1692g, if you send a written dispute within 30 days of first contact, they must cease all collection activity until they verify the debt.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can a debt collector sue me after the statute of limitations?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Technically yes, but the lawsuit can be dismissed if you raise the statute of limitations as a defense. The CFPB\'s Regulation F requires debt collectors to disclose when a debt is time-barred. Filing suit on a time-barred debt without this disclosure is an FDCPA violation.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the FDCPA and does it apply to me?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'The Fair Debt Collection Practices Act (FDCPA), 15 U.S.C. § 1692 et seq., is a federal law governing third-party debt collectors. It covers personal, family, and household debts including credit cards, medical bills, auto loans, and student loans. If you are in the US and being contacted by a debt collector about a personal debt, the FDCPA almost certainly applies to you.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can debt collectors call my workplace?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Debt collectors are prohibited from contacting you at work if they know or have reason to know your employer prohibits such calls (15 U.S.C. § 1692c(a)(3)). By sending a written notice, you put the collector on notice — any further work calls are a knowing FDCPA violation.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Can a debt collector contact my family or friends?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Only in very limited circumstances. Under 15 U.S.C. § 1692b, a collector may contact third parties only to locate you, and even then cannot tell them you owe a debt. Once they have your contact information, they may not contact any third party about your debt.',
+      },
+    },
+  ],
+};
+
 export default function HomePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <Hero />
       <StatuteChecker />
       <HowItWorks />
