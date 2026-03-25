@@ -36,7 +36,7 @@ export const metadata: Metadata = {
       'Free statute of limitations checker and professional debt dispute letter generator. Know your rights. Fight back legally.',
     images: [
       {
-        url: `${BASE_URL}/og-image.svg`,
+        url: `${BASE_URL}/opengraph-image`,
         width: 1200,
         height: 630,
         alt: 'DebtDispute — Know Your Rights Against Debt Collectors',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'DebtDispute — Stop Debt Collectors in Their Tracks',
     description: 'Free statute of limitations checker + professional dispute letter generator.',
-    images: [`${BASE_URL}/og-image.svg`],
+    images: [`${BASE_URL}/opengraph-image`],
   },
   robots: {
     index: true,
