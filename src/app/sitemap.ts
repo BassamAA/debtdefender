@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { JURISDICTIONS } from '@/data/jurisdictions';
 import { DEBT_TYPE_URL_SLUGS } from '@/data/debtTypes';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://debtdispute.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://debtdispute.org';
 
 const LETTER_SLUGS = [
   'debt-validation',

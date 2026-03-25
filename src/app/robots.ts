@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://debtdispute.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://debtdispute.org';
 
 export default function robots(): MetadataRoute.Robots {
   return {

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     'Free statute of limitations checker and professional debt dispute letter generator. Know your rights under the FDCPA. Fight back against debt collectors legally.',
 };
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://debtdispute.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://debtdispute.org';
 
 const organizationSchema = {
   '@context': 'https://schema.org',

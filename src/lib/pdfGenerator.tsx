@@ -198,7 +198,7 @@ export function LetterPDFDocument({ letter }: Props) {
       author="DebtDispute"
       subject={`${letterLabel} — ${letter.dateGenerated}`}
       keywords="debt collection, FDCPA, consumer rights, debt dispute"
-      creator="DebtDispute (debtdispute.com)"
+      creator="DebtDispute (debtdispute.org)"
     >
       <Page size="LETTER" style={styles.page}>
         {/* Header */}

@@ -3,7 +3,7 @@ import './globals.css';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://debtdispute.com';
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? 'https://debtdispute.org';
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
