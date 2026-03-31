@@ -1,18 +1,21 @@
 # debtdefender
 
-Product-style web application focused on debt-related decision support and user workflows.
+Product-style web application focused on debt-related decision support and structured user workflows.
 
 ## Overview
-This project explores how a web application can guide users through debt-related decisions with a focus on usability, structured workflows, and clear product behavior.
+DebtDefender explores how a web application can help users navigate debt-related decisions through clearer workflows, better information structure, and a focused product experience.
 
-## Highlights
-- Full-stack web application structure
-- Product-oriented user workflow design
-- Focus on practical decision-support use cases
+## What it demonstrates
+- Full-stack web application development
+- Product-oriented workflow and feature design
+- User-focused decision-support interface patterns
+- Experience building practical web products beyond simple CRUD examples
 
 ## Tech Stack
+- Next.js
 - TypeScript
-- Modern web application architecture
+- React
+- Stripe
 
-## Notes
-This repository is part of a broader body of work centered on building production-style applications with strong engineering and quality practices.
+## Purpose
+This project reflects hands-on experience building modern web applications with a focus on usability, product structure, and production-style implementation.
